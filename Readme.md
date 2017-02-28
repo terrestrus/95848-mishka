@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгений Вареница](https://up.htmlacademy.ru/adaptive/10/user/95848).
-* Наставник: `Неизвестно`.
+* Наставник: [Cергей Рубец].
 
 ---
 
