@@ -1,0 +1,25 @@
+@font-face {
+  font-family: OpenSansBold;
+  src: url("../fonts/opensansbold.woff");
+  src: url("../fonts/opensansbold.woff2");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/opensans.woff");
+  src: url("../fonts/opensans.woff2");
+}
+
+@import "page-header.scss";
+@import "main-nav.scss";
+@import "promo-block.scss";
+@import "main-title.scss";
+@import "menu.scss";
+@import "title.scss";
+@import "product-card.scss";
+@import "button.scss";
+@import "about-us.scss";
+@import "reviews.scss";
+@import "contacts.scss";
+@import "made-by.scss";
+@import "socials.scss";

@@ -1,0 +1,22 @@
+
+
+.menu__item {
+display: block;
+min-height: 103px;
+min-width: 320px;
+font-family: "OpenSansBold", "Arial", sans-serif;
+font-size: 19px;
+line-height: 24px;
+
+}
+
+.menu__item:first-child {
+  background: #63d1bb url("../img/icon-interior.svg") no-repeat 80% 50%;
+
+
+
+}
+
+.menu__item:last-child {
+  background:  #56c3b2 url("../img/icon-toy.svg") no-repeat 80% 50%;
+}
