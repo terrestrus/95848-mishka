@@ -1,15 +1,3 @@
-@font-face {
-  font-family: OpenSansBold;
-  src: url("../fonts/opensansbold.woff");
-  src: url("../fonts/opensansbold.woff2");
-}
-
-@font-face {
-  font-family: OpenSans;
-  src: url("../fonts/opensans.woff");
-  src: url("../fonts/opensans.woff2");
-}
-
 @import "page-header.scss";
 @import "main-nav.scss";
 @import "promo-block.scss";
@@ -35,3 +23,4 @@
 @import "page-form.scss";
 @import "catalog-product-card.scss";
 @import "production.scss";
+@import "fonts.scss";
