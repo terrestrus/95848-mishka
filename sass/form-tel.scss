@@ -1,14 +1,14 @@
 .form-tel__legend {
-  font-family: "OpenSansBold", "Arial", sans-serif;
+  font-family: $main-font-bold;
   font-size: 17px;
   line-height: 16px;
-  color: #63d1bb;
+  color: $turquoise-color;
   text-transform: capitalize;
 }
 
 .form-tel__item {
-  font-family: "OpenSansBold", "Arial", sans-serif;
+  font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
-  color: #000000;
+  color: $item-color;
 }

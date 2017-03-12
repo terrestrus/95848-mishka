@@ -1,17 +1,17 @@
 .reviews__text {
-  font-family: "OpenSans", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 15px;
   line-height: 30px;
-  color: #444444;
+  color: $main-text-color;
 }
 
 .reviews__author {
-  font-family: "OpenSansBold", "Arial", sans-serif;
+  font-family: $main-font-bold;
   /* ???
   */
 }
 
 .reviews__authors-account-name{
-    font-family: "OpenSans", "Arial", sans-serif;
-    color: #444444;
+    font-family: $main-font;
+    color: $main-text-color;
 }

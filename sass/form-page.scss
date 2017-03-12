@@ -1,13 +1,13 @@
 .form-page__title {
-  font-family: "OpenSansBold", "Arial", sans-serif;
+  font-family: $main-font-bold;
   font-size: 27px;
   line-height: 30px;
   color: #231f20;
 }
 
 .form-page__description {
-  font-family: "OpenSans", "Arial", sans-serif;
+  font-family: $main-font;
   font-size: 13px;
   line-height: 24px;
-  color: #444444;
+  color: $main-text-color;
 }

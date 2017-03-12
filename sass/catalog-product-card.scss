@@ -1,13 +1,13 @@
 .catalog-product-card__description {
-  font-family: "OpenSans", "Arial", sans-serif;
+  font-family: $font-main;
   font-size: 13px;
   line-height: 30px;
-  color: #444444;
+  color: $main-text-color;
 }
 
 .catalog-product-card__price {
-  font-family: "OpenSansBold", "Arial", sans-serif;
+  font-family:$font-main-bold;
   font-size: 15px;
   line-height: 24px;
-  color: #000000;
+  color: $item-color;
 }
