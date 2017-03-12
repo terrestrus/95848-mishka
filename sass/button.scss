@@ -1,0 +1,9 @@
+.button {
+  display: block;
+  font-family: $main-font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $main-text-color;
+  text-transform: uppercase;
+  border: 2px solid $main-text-color;
+}

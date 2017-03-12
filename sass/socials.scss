@@ -1,0 +1,22 @@
+.socials__item {
+  display: inline-block;
+  height: 29px;
+  width: 22px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.socials__item--facebook {
+  background-image: url("../img/icon-fb.svg");
+}
+
+.socials__item--twitter {
+  background-image: url("../img/icon-twitter.svg");
+}
+
+.socials__item--instagram {
+  background-image: url("../img/icon-insta.svg");
+}

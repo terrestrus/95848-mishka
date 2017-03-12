@@ -1,0 +1,27 @@
+.product-card__action {
+  font-family: $main-font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: $turquoise-color;
+}
+
+.product-card__description {
+  font-family: $main-font;
+  font-size: 15px;
+  line-height:  24px;
+  color: $main-text-color;
+}
+
+.product-card__characteristics {
+  font-family: $main-font;
+  font-size: 15px;
+  line-height: 20px;
+  color: $main-text-color;
+}
+
+.product-card__price {
+  font-family: $main-font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $main-text-color;
+}
