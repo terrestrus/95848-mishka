@@ -1,3 +1,136 @@
-.main-nav--closed {
-  display: none;
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80px;
+  background: red;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.main-nav__list li a {
+  text-align: middle;
+  text-decoration: none;
+}
+
+.main-nav__item  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  min-height: 70px;
+  width: auto;
+  padding: 0;
+  border-bottom: 1px solid $main-text-color;
+}
+
+.main-nav__item:nth-last-child(2)::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background:  url("../img/icon-search.svg") no-repeat 50% 50%;
+}
+.main-nav__item:last-child::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon-cart.svg") no-repeat 50% 50%;
+}
+.main-nav--closed .main-nav__list {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon-menu-open.svg") no-repeat 50% 50%;
+
+  .main-nav__item {
+    display: none;
+  }
+}
+
+
+/*tablet */
+@media (min-width: 720px) {
+  .main-nav--closed{
+    display: none;
+  }
+ .main-nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   margin-left: auto;
+   box-sizing: border-box;
+   background: none;
+ }
+
+ .main-nav .main-nav__list   {
+   display: inline-block;
+   list-style: none;
+ }
+
+ .main-nav__list li:nth-last-child(n+2) {
+   display: none;
+ }
+
+ .main-nav__list li:last-child {
+   display: inline-flex;
+   min-width: 195px;
+   align-items: flex-start;
+ }
+
+ .main-nav__list li:last-child a::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon-cart.svg") no-repeat 50% 80%;
+  content: "";
+  vertical-align: bottom;
+}
+
+.main-nav__list li:nth-last-child(2)  {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background:  url("../img/icon-search.svg") no-repeat 50% 80%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+}
+
+/*desktop */
+@media (min-width: 1150px)  {
+  .main-nav {
+    display: flex;
+    background: grey;
+  }
+  .main-nav .main-nav__list .main-nav__item {
+    display: inline-block;
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav__list li:nth-child(2) {
+    margin: auto;
+    background: red;
+  }
 }
