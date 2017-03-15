@@ -1,5 +1,7 @@
 .promo-block {
+  display: flex;
   min-height: 238px;
   min-width: 320px;
-  background: #ffffff url("../img/hero-mobile@1x.jpg") no-repeat ;
+  background: #ffffff url("../img/hero-mobile@1x.jpg") no-repeat;
+  background-size: cover;
 }

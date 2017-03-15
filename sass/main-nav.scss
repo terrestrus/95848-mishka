@@ -4,7 +4,6 @@
   flex-direction: column;
   width: 100%;
   min-height: 80px;
-  background: red;
 }
 
 .main-nav__list {
@@ -35,6 +34,9 @@
   border-bottom: 1px solid $main-text-color;
 }
 
+.main-nav__item:first-child {
+  border-top: 1px solid $main-text-color;
+}
 .main-nav__item:nth-last-child(2)::before {
   content: "";
   display: block;
@@ -131,6 +133,5 @@
 
   .main-nav__list li:nth-child(2) {
     margin: auto;
-    background: red;
   }
 }

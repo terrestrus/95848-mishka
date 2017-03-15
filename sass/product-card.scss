@@ -1,4 +1,12 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
 .product-card__action {
+  margin-top: -15px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 20px;
@@ -6,6 +14,7 @@
 }
 
 .product-card__description {
+  padding-top: 20px;
   font-family: $main-font;
   font-size: 15px;
   line-height:  24px;
@@ -13,15 +22,26 @@
 }
 
 .product-card__characteristics {
+  width: 100%;
+  padding-top: 20px;
   font-family: $main-font;
   font-size: 15px;
   line-height: 20px;
   color: $main-text-color;
 }
 
+.product-card__characteristics td {
+  min-width: 100px;
+  min-height: 80px;
+  padding: 10px 0;
+  border-bottom: 1px solid $border-color;
+}
+
 .product-card__price {
+  padding: 30px 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 24px;
   color: $main-text-color;
+  text-align: center;
 }

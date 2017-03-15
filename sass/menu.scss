@@ -1,16 +1,26 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .menu__item {
-display: block;
+display: flex;
+align-items: center;
 min-height: 103px;
 min-width: 320px;
+padding: 30px 30px;
 font-family: $main-font-bold;
 font-size: 19px;
 line-height: 24px;
+text-decoration: none;
+vertical-align: middle;
+color: $item-color;
 }
 
 .menu__item:first-child {
-  background: $turquoise-color url("../img/icon-interior.svg") no-repeat 80% 50%;
+  background: $turquoise-color url("../img/icon-interior.svg") no-repeat 70% 50%;
 }
 
 .menu__item:last-child {
-  background:  #56c3b2 url("../img/icon-toy.svg") no-repeat 80% 50%;
+  background:  #56c3b2 url("../img/icon-toy.svg") no-repeat 70% 50%;
 }

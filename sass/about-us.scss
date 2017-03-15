@@ -1,6 +1,60 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 30px;
+}
+
 .about-us__item {
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 20px;
   color: $item-color;
+}
+
+.about-us__item:nth-child(2)::before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  background: url("../img/icon-feature-1.svg") no-repeat 50% 50%;
+}
+
+.about-us__item:nth-child(3)::before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  background: url("../img/icon-feature-3.svg") no-repeat 50% 50%;
+}
+
+.about-us__item:nth-child(4)::before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  background: url("../img/icon-feature-5.svg") no-repeat 50% 50%;
+}
+
+.about-us__item:nth-child(5)::before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  background: url("../img/icon-feature-2.svg") no-repeat 50% 50%;
+}
+
+.about-us__item:nth-child(6)::before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  background: url("../img/icon-feature-4.svg") no-repeat 50% 50%;
+}
+
+.about-us__item:nth-child(7)::before {
+  display: block;
+  width: 50px;
+  height: 40px;
+  content: "";
+  background: url("../img/icon-feature-6.svg") no-repeat 50% 50%;
 }

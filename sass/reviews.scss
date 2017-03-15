@@ -1,4 +1,12 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
 .reviews__text {
+  margin-top: 38px;
   font-family: $main-font;
   font-size: 15px;
   line-height: 30px;
@@ -6,6 +14,7 @@
 }
 
 .reviews__author {
+  margin-top: 42px;
   font-family: $main-font-bold;
   /* ???
   */
@@ -14,4 +23,15 @@
 .reviews__authors-account-name{
     font-family: $main-font;
     color: $main-text-color;
+}
+
+.reviews__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid $border-color;
+  margin-bottom: 38px;
+  margin-top: 35px;
 }

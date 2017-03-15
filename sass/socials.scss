@@ -1,7 +1,15 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  border-bottom: 1px solid $border-color;
+}
 .socials__item {
   display: inline-block;
   height: 29px;
   width: 22px;
+  margin-left: 40px;
   background-repeat: no-repeat;
   background-position: bottom;
   text-indent: 100%;

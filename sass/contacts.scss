@@ -1,13 +1,35 @@
+.contacts {
+  display: table;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 30px;
+}
 .contacts__email {
+  display: table-row;
   font-family: $main-font;
   font-size: 15px;
   line-height: 30px;
   color: $main-text-color;
 }
 
+.contacts__email a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
 .contacts__adress {
+  display: table-row;
   font-family: $main-font;
   font-size: 15px;
   line-height: 30px;
   color: $main-text-color;
+}
+
+.contacts__adress-concrete {
+  margin-left: 30px;
+}
+
+.contacts__map {
+  width: 100%;
+
 }
