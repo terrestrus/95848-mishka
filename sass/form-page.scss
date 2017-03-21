@@ -1,8 +1,30 @@
+.form-page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 55px;
+  box-sizing: border-box;
+}
+
 .form-page__title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 175px;
   font-family: $main-font-bold;
   font-size: 27px;
   line-height: 30px;
   color: #231f20;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  background-color: #f1f1f1;
 }
 
 .form-page__description {
@@ -10,4 +32,27 @@
   font-size: 13px;
   line-height: 24px;
   color: $main-text-color;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 55px;
+  }
+
+  .form-page__title {
+    min-height: 220px;
+    font-family: $main-font-bold;
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .form-page__description {
+    font-family: $main-font;
+    font-size: 13px;
+    line-height: 24px;
+    color: $main-text-color;
+  }
 }

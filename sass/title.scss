@@ -3,3 +3,61 @@
   font-size: 25px;
   line-height: 30px;
 }
+
+@media (min-width: 768px) {
+  .product-card .title {
+    display: inline-block;
+    min-width: 85%;
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .about-us .title {
+    width: 100%;
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .reviews .title {
+    margin-top: 85px;
+    font-size: 43px;
+    line-height: 50px;
+    width: 70%;
+  }
+
+  .contacts .title {
+    font-size: 43px;
+    line-height: 50px;
+    width: 100%;
+  }
+
+  .catalog-product-card .title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .production .title {
+    margin-left: 44px;
+    margin-right: 44px;
+    order: 1;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product-card .title {
+    margin-left: 225px;
+    z-index: 5;
+  }
+
+  .catalog-product-card .title {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .production .title {
+    display: inline-block;
+    width: 230px;
+    height: 100px;
+  }
+}

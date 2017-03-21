@@ -15,3 +15,10 @@
   margin-left: 30px;
   background: $footer-background;
 }
+
+@media (min-width: 768px) {
+  .developed-by {
+    display: inline-flex;
+    width: 185px;
+  }
+}

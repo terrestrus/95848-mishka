@@ -8,8 +8,65 @@
   text-transform: uppercase;
   border: 2px solid $main-text-color;
   text-align: center;
+  text-decoration: none;
 }
 
 .reviews .button {
   margin-bottom: 44px;
+}
+
+.production .button {
+  margin-left: 33px;
+  margin-right: 33px;
+  margin-bottom: 32px;
+}
+
+.form-page .button {
+  width: 260px;
+}
+
+@media (min-width: 768px) {
+  .product-card .button {
+    width: 40%;
+    order: 7;
+  }
+
+  .reviews .button {
+    width: 171px;
+    order: 1;
+    margin-bottom:auto;
+    margin-top: 80px;
+  }
+
+  .contacts .button {
+    width: 230px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .production .button {
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-bottom: 44px;
+    order: 3;
+  }
+}
+
+@media (min-width: 1150px) {
+  .product-card .button {
+    margin-left: 225px;
+  }
+
+  .contacts .button {
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .production .button {
+    margin-left: 80px;
+    min-width: 230px;
+  }
+
+
 }

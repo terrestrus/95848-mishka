@@ -1,0 +1,35 @@
+.page-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 180px;
+  background: $footer-background;
+  box-sizing: border-box;
+  border: 1px solid $border-color;
+}
+
+@media (min-width: 768px) {
+  .page-name::before {
+    content: "Бесплатная доставка по России";
+    align-self: flex-end;
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-name {
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 250px;
+  }
+
+  .page-name::before {
+    content: "Бесплатная доставка по России";
+    align-self: flex-end;
+    margin-top: 24px;
+   margin-right: 50px;
+  }
+}

@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  box-sizing: border-box;
 }
 .menu__item {
 display: flex;
@@ -14,7 +15,8 @@ font-size: 19px;
 line-height: 24px;
 text-decoration: none;
 vertical-align: middle;
-color: $item-color;
+color: white;
+box-sizing: border-box;
 }
 
 .menu__item:first-child {
@@ -23,4 +25,24 @@ color: $item-color;
 
 .menu__item:last-child {
   background:  #56c3b2 url("../img/icon-toy.svg") no-repeat 70% 50%;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu__item {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1150px) {
+ width: 100%;
+ margin-left: 50px;
+ margin-right: 50px;
 }

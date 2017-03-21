@@ -1,13 +1,124 @@
+.catalog-product-card {
+  padding: 30px;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  min-width: 258px;
+  border: 1px solid $border-color;
+  box-sizing: border-box;
+}
+
 .catalog-product-card__description {
   font-family: $main-font;
   font-size: 13px;
   line-height: 30px;
   color: $main-text-color;
+  padding-top: 20px;
+  padding-bottom: 26px;
+}
+
+.catalog-product-card__price-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 72px;
+  border-top: 1px solid $border-color;
 }
 
 .catalog-product-card__price {
+  display: inline-block;
+  width: 85px;
+  min-height: 20px;
   font-family:$main-font-bold;
   font-size: 15px;
   line-height: 24px;
+  vertical-align: middle;
+  text-align: center;
   color: $item-color;
+  margin-bottom: 0;
+}
+
+.catalog-product-card__to-cart {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+// .catalog-product-card__image {
+//   margin-left: -30px;
+// }
+
+@media (min-width: 768px) {
+  .catalog-product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 80px 50px;
+    margin-bottom: 30px;
+    padding: 0;
+    border: 1px solid $border-color;
+  }
+
+  .catalog-product-card__image {
+    width: 50%;
+  }
+
+  .catalog-product-card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 0 30px;
+  }
+
+  .catalog-product-card__description {
+    width: 100%;
+    font-size: 15px;
+    margin-top: -20px;
+    padding: 0;
+    margin-bottom: 185px;
+  }
+
+  .catalog-product-card__price-block {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog-product-card {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 316px;
+  }
+
+  .catalog-product-card__info {
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+
+  .catalog-product-card__image {
+    width: 100%;
+    min-height: 472px;
+  }
+
+  .catalog-product-card__description {
+    width: 100%;
+    font-size: 15px;
+    margin-top: -20px;
+    padding: 0;
+    margin-bottom: 46px;
+  }
+
+  .catalog-product-card__price-block {
+    margin-bottom: 0;
+  }
+
+  .catalog-product-card__price {
+    text-align: left;
+  }
+
+
+
+
 }
