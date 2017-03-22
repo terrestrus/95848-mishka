@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .main-nav__item .by-demand-button {
+    width: 150px;
+    margin-left: -35%;
+    margin-bottom: -135px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-nav__item .by-demand-button  {
+    width: 156px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 35px;
+    border-left: 1px solid $border-color;
+  }
+}

@@ -39,6 +39,7 @@
   .contacts {
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0 50px;
   }
 
   .contacts__email {
@@ -47,7 +48,7 @@
     align-content: flex-start;
     width: 50%;
     min-height: 80px;
-    margin-top: 65px;
+    margin-top: 0;
     font-family: $main-font;
     font-size: 17px;
 
@@ -57,13 +58,15 @@
     display: inline-flex;
     align-items: flex-start;
     align-content: flex-start;
-    margin-left: 56px;
-    margin-top: 65px;
-    width: 40%;
+    width: 49%;
     min-height: 80px;
     font-family: $main-font;
     font-size: 17px;
     vertical-align: 30px;
+  }
+
+  .contacts__adress-concrete {
+    width: 220px;
   }
 
   .contacts__map {

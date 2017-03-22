@@ -1,0 +1,19 @@
+ .main-nav__item .search-button {
+  margin-left: -55px;
+}
+
+.search-button span {
+  margin-left: 25px;
+}
+
+@media (min-width: 768px) {
+  .main-nav__item .search-button {
+    width: 82px;
+    margin-right: 25px;
+    border-left: 1px solid $border-color;
+  }
+  .search-button span {
+    margin-left: 25px;
+    display: none;
+  }
+}
