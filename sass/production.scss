@@ -1,6 +1,62 @@
+
+  .production {
+    border: 1px solid $border-color;
+  }
+
 .production__description {
+  margin-left: 33px;
+  margin-right: 33px;
   font-family: $main-font;
   font-size: 13px;
   line-height: 24px;
   color: $main-text-color;
 }
+
+@media (min-width: 768px) {
+  .production {
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+  .production__video {
+    width: 100%;
+  }
+
+  .production__description {
+    margin-left: 44px;
+    margin-right: 44px;
+    order: 2;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  }
+
+  @media (min-width: 1150px) {
+    .production {
+      position: relative;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+      min-height: 455px;
+  }
+
+  .production__video {
+    position: absolute;
+    width: 65%;
+    min-height: 455px;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+  }
+
+  .production__description {
+    width: 230px;
+    margin-left: 75px;
+  }
+
+  }

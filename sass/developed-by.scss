@@ -1,4 +1,8 @@
 .developed-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
   font-family: $main-font-bold;
   font-size: 19px;
   line-height: 18px;
@@ -8,4 +12,13 @@
   display: inline-block;
   width: 27px;
   height: 34px;
+  margin-left: 30px;
+  background: $footer-background;
+}
+
+@media (min-width: 768px) {
+  .developed-by {
+    display: inline-flex;
+    width: 185px;
+  }
 }

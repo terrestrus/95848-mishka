@@ -1,8 +1,27 @@
 .main-title {
   vertical-align: middle;
-  margin: 0 auto;
+  margin: auto;
+  text-align: center;
   font-size: 27px;
   font-weight: bold;
   line-height: 30px;
   font-family: $main-font-bold;
+}
+
+.promo-block .main-title {
+  padding: 0 38px;
+}
+
+@media (min-width: 1150px) {
+  .promo-block .main-title {
+    width: 615px;
+    margin-top: 165px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .page-name .main-title {
+    font-size: 53px;
+    line-height: 57px;
+  }
 }

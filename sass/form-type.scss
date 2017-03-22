@@ -1,3 +1,8 @@
+.form-type {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-type__legend {
   font-family: $main-font-bold;
   font-size: 17px;
