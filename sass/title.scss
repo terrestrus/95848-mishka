@@ -7,7 +7,7 @@
 @media (min-width: 768px) {
   .product-card .title {
     display: inline-block;
-    min-width: 85%;
+    max-width: 500px;
     font-size: 42px;
     line-height: 50px;
   }
@@ -45,8 +45,10 @@
 
 @media (min-width: 1150px) {
   .product-card .title {
-    margin-left: 225px;
-    z-index: 5;
+    max-width: 530px;
+    font-size: 53px;
+    line-height: 57px;
+      z-index: 5;
   }
 
   .catalog-product-card .title {

@@ -27,7 +27,7 @@
 
 @media (min-width: 768px) {
   .product-card .button {
-    width: 40%;
+    max-width: 293px;
     order: 7;
   }
 
@@ -54,10 +54,6 @@
 }
 
 @media (min-width: 1150px) {
-  .product-card .button {
-    margin-left: 225px;
-  }
-
   .contacts .button {
     margin-right: auto;
     margin-left: 0;

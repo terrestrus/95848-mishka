@@ -83,7 +83,6 @@
 
   .contacts__email {
     display: block;
-
     font-family: $main-font;
     font-size: 17px;
 
@@ -98,11 +97,15 @@
     vertical-align: 30px;
   }
 
+  .contacts__adress-concrete {
+    width: 220px;
+  }
+
   .contacts__map {
     position: absolute;
-    width: 556px;
-    height: 455px;
+    width: 525px;
+    height: 457px;
     top: 0;
-    right: 10px;
+    right: 50px;
   }
 }
