@@ -77,6 +77,21 @@
     border: none;
     align-items: center;
   }
+
+  .main-nav::before {
+    content: "Бесплатная доставка по России";
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: -235px;
+    margin-bottom: -104px;
+    max-width: 50%;
+    height: 20px;
+    order: 3;
+    font-size: 15px;
+    line-height: 24px;
+    color: $main-text-color;
+  }
+
 }
 
 /*desktop */
@@ -94,17 +109,18 @@
   .main-nav__item:nth-last-child(3) {
     margin-right: auto;
   }
-  //
-  // .main-nav__list li:nth-last-child(3) a {
-  //   font-size: 17px;
-  //   line-height: 24px;
-  // }
-  //
-  // .main-nav__list li:nth-last-child(4) {
-  //   position: static;
-  //   padding-right: 35px;
-  //   order: -2;
-  //
 
-//}
+  .main-nav::before {
+    content: "Бесплатная доставка по России";
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: -255px;
+    margin-bottom: -110px;
+    max-width: 50%;
+    height: 20px;
+    order: 3;
+    font-size: 17px;
+    line-height: 30px;
+    color: $main-text-color;
+  }
 }

@@ -10,14 +10,26 @@
 
 .promo-block .main-title {
   padding: 0 38px;
+  order: 5;
+}
+@media (min-width: 768px) {
+  .promo-block .main-title {
+    margin-top: 125px;
+    margin-bottom: 375px;
+    font-size: 43px;
+    line-height: 50px;
+  }
 }
 
 @media (min-width: 1150px) {
   .promo-block .main-title {
     width: 615px;
-    margin-top: 165px;
+    min-height: 90px;
+    margin: 380px auto;
+    margin-top: 135px;
     font-size: 53px;
     line-height: 57px;
+    order: 5;
   }
 
   .page-name .main-title {

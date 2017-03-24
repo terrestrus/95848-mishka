@@ -11,11 +11,7 @@
 }
 
 @media (min-width: 768px) {
-  .page-name::before {
-    content: "Бесплатная доставка по России";
-    align-self: flex-end;
-    margin-top: 24px;
-  }
+
 }
 
 @media (min-width: 1150px) {
@@ -24,12 +20,5 @@
     padding-left: 50px;
     padding-right: 50px;
     min-height: 250px;
-  }
-
-  .page-name::before {
-    content: "Бесплатная доставка по России";
-    align-self: flex-end;
-    margin-top: 24px;
-    margin-right: 50px;
   }
 }
