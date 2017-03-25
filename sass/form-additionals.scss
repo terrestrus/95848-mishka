@@ -1,6 +1,4 @@
-.form-additionals textarea {
-  width: 235px;
-}
+
 .form-additionals__legend {
   font-family: $main-font-bold;
   font-size: 17px;
@@ -14,4 +12,10 @@
   font-size: 17px;
   line-height: 18px;
   color: $item-color;
+}
+
+.form-additionals__text {
+  width: 215px;
+  padding: 18px 20px;
+  border: 2px solid #000000;
 }

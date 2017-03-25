@@ -13,21 +13,23 @@
 }
 
 .form-page__title {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  min-height: 175px;
+  margin:0;
+  padding-top: 75px;
+  padding-bottom: 80px;
+  max-height: 175px;
+  text-align: center;
   font-family: $main-font-bold;
   font-size: 27px;
   line-height: 30px;
   color: #231f20;
-  border-top: 1px solid $border-color;
+  border-top: 2px solid $border-color;
   border-bottom: 1px solid $border-color;
   background-color: #f1f1f1;
 }
 
 .form-page__description {
+  width: 100%;
   font-family: $main-font;
   font-size: 13px;
   line-height: 24px;

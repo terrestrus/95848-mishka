@@ -1,6 +1,7 @@
 .form-color {
   display: flex;
   flex-direction: column;
+  padding-bottom: 35px;
 }
 
 .form-color__legend {
@@ -12,6 +13,7 @@
 }
 
 .form-color__item {
+  margin-top: 25px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
