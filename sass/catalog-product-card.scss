@@ -88,6 +88,11 @@
   .catalog-product-card {
     flex-direction: column;
     width: 315px;
+    margin-left: 0;
+  }
+
+  .catalog-product-card:last-child {
+    margin-right: 0;
   }
 
   .catalog-product-card__info {
