@@ -46,15 +46,27 @@
 
   .form-page__title {
     min-height: 220px;
+    padding-top: 103px;
     font-family: $main-font-bold;
     font-size: 43px;
     line-height: 50px;
+
   }
 
   .form-page__description {
+    padding-top: 80px;
+    padding-bottom: 60px;
     font-family: $main-font;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 30px;
     color: $main-text-color;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form-page__description {
+    padding-left: 170px;
+    padding-right: 160px;
+    box-sizing: border-box;
   }
 }

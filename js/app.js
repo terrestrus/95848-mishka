@@ -3,7 +3,7 @@ var navToggle = document.querySelector('.main-nav__toggle');
 
 mainNav.classList.add(".main-nav-js");
 
-navToggle.addEventListener('click', function() {
+mainNav.addEventListener('click', function() {
   if (mainNav.classList.contains('.main-nav--opened')) {
     mainNav.classList.remove('.main-nav--opened');
     mainNav.classList.add('.main-nav--closed');

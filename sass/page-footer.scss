@@ -10,9 +10,10 @@
 @media (min-width: 768px){
   .page-footer {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     margin-top: 57px;
+    padding: 0 50px;
   }
   .page-footer::before {
     content: "";

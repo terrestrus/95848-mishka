@@ -4,3 +4,14 @@
   line-height: 16px;
   color: $main-text-color;
 }
+
+@media (min-width: 768px) {
+  .page-form__note{
+    width: 305px;
+    float: right;
+    text-align: right;
+    margin-top: 70px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+}

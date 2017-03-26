@@ -31,6 +31,16 @@
     width: 100%;
   }
 
+  .contacts .title::after {
+      content: "";
+      display: block;
+      height: 83px;
+      width: 50px;
+      margin-left: auto;
+      margin-top: -70px;
+      background: url("../img/icon-flag.svg") no-repeat;
+  }
+
   .catalog-product-card .title {
     font-size: 20px;
     line-height: 24px;
@@ -51,6 +61,10 @@
       z-index: 5;
   }
 
+  .contacts .title::after {
+    display: none;
+  }
+
   .catalog-product-card .title {
     width: 100%;
     font-size: 20px;
@@ -62,13 +76,18 @@
     width: 230px;
     height: 100px;
     margin-bottom: 42px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .production .title::before {
     display: block;
     content: "";
-    width: 30px;
+    width: 35px;
     height: 30px;
-    background: red;
+    margin-top: 0;
+    // margin-bottom: 30px;
+    background: url("../img/icon-video.svg");
   }
+
 }

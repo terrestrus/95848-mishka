@@ -20,11 +20,16 @@ box-sizing: border-box;
 }
 
 .menu__item:first-child {
-  background: $turquoise-color url("../img/icon-interior.svg") no-repeat 70% 50%;
+  background: $turquoise-color ;
 }
 
 .menu__item:last-child {
-  background:  #56c3b2 url("../img/icon-toy.svg") no-repeat 70% 50%;
+  background:  #56c3b2 ;
+}
+
+.menu__item span {
+  width: 106px;
+  margin-right: auto;
 }
 
 @media (min-width: 768px) {

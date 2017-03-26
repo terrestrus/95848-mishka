@@ -10,11 +10,28 @@
   line-height: 16px;
   color: $turquoise-color;
 }
-
+.form-type__items {
+  display: flex;
+  flex-direction: column;
+}
 .form-type__item {
   margin-top: 30px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
   color:$item-color;
+}
+
+@media (min-width: 768px) {
+  .form-type {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form-type__item {
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 130px;
+  }
+
 }
