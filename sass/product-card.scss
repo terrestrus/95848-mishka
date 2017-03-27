@@ -101,11 +101,17 @@
 
 @media (min-width: 1150px) {
   .product-card {
-    padding: 0 225px;
+     padding: 0 50px;
+  }
+
+  .product-card__wrapper {
+    position: relative;
+    max-width: 1050px;
+    padding-left: 175px;
   }
 
   .product-card__action {
-    left: 100px;
+    left: 47px;
     top: 15px;
     width: 70px;
     height: 35px;

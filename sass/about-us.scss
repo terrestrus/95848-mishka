@@ -62,13 +62,19 @@
 
 @media (min-width: 768px) {
   .about-us {
+    padding: 0 50px;
+  }
+  .about-us__wrapper {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 60px 50px 80px;
+    max-width: 700px;
+    margin: 0 auto;
   }
 
   .about-us__item {
+    display: inline-block;
     width: 300px;
     font-size: 20px;
     line-height: 22px;
@@ -77,8 +83,7 @@
 
 @media (min-width: 1150px) {
   .about-us {
-    justify-content: flex-start;
-    padding-left: 225px;
+
   }
 
   .about-us__item {
