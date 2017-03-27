@@ -1,11 +1,22 @@
 .about-us {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 35px 30px;
   box-sizing: border-box;
 }
 
+// .about-us__wrapper{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content:
+// }
+
 .about-us__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 20px;

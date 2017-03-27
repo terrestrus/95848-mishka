@@ -19,10 +19,12 @@
   font-size: 15px;
   line-height:  24px;
   color: $main-text-color;
+  margin: 0;
 }
 
 .product-card__characteristics {
   width: 100%;
+  margin-top: 20px;
   padding-top: 20px;
   font-family: $main-font;
   font-size: 15px;
@@ -31,19 +33,23 @@
 }
 
 .product-card__characteristics td {
-  min-width: 100px;
+  min-width: 80px;
   min-height: 80px;
   padding: 10px 0;
   border-bottom: 1px solid $border-color;
 }
 
 .product-card__price {
-  padding: 30px 0;
+  padding-top: 30px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 24px;
   color: $main-text-color;
   text-align: center;
+}
+
+.product-card__image {
+  margin-top: 28px;
 }
 
 @media (min-width: 768px) {

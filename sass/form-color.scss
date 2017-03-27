@@ -26,10 +26,11 @@
  }
 
 .form-color__item input {
-   display: none;
+
 }
 
 .form-color__item::before {
+  position: relative;
   display: inline-block;
   content: "";
   width: 50px;
@@ -37,6 +38,11 @@
   margin-bottom: -20px;
   margin-right: 29px;
   border: 2px solid black;
+}
+
+ input:checked ~.form-color__item  {
+
+color: red;
 }
 
 @media (min-width: 768px) {

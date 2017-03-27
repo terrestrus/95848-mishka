@@ -4,6 +4,12 @@
   line-height: 30px;
 }
 
+.reviews .title {
+  font-family: $main-font-bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 @media (min-width: 768px) {
   .product-card .title {
     display: inline-block;
