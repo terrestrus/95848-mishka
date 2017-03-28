@@ -10,6 +10,26 @@
   line-height: 30px;
 }
 
+.production .title {
+  position: relative;
+  font-family: $main-font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  padding-left: 89px;
+}
+
+.production .title::before {
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  display: block;
+  content: "";
+  width: 35px;
+  height: 30px;
+  margin-top: 0;
+  background: url("../img/icon-video.svg");
+}
+
 @media (min-width: 768px) {
   .product-card .title {
     display: inline-block;
@@ -56,6 +76,11 @@
     margin-left: 44px;
     margin-right: 44px;
     order: 1;
+    font-size: 20px;
+  }
+
+  .production .title::before {
+    top: -5px;
   }
 }
 
@@ -87,6 +112,7 @@
   }
 
   .production .title::before {
+    position: static;
     display: block;
     content: "";
     width: 35px;

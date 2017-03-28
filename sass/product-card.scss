@@ -124,3 +124,11 @@
   }
 
 }
+
+
+@media (min-width: 1350px) {
+  .product-card__wrapper {
+    min-width: 1050px;
+    margin: 0 auto;
+  }
+}

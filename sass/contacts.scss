@@ -1,10 +1,11 @@
 .contacts {
-  display: table;
+  display: flex;
   flex-direction: column;
   width: 100%;
   padding: 0 30px;
   box-sizing: border-box;
 }
+
 .contacts__email {
   display: table-row;
   font-family: $main-font;
@@ -65,6 +66,7 @@
   .contacts__adress {
     display: inline-flex;
     align-items: flex-start;
+    margin-top: 0;
     width: 300px;
     font-family: $main-font;
     font-size: 17px;
@@ -85,7 +87,12 @@
     padding-top: 135px;
   }
 
-  .contacts::before {
+  .contacts__wrapper {
+    position: relative;
+    max-width: 1050px;
+  }
+
+  .contacts__wrapper::before {
     content: "";
     display: block;
     height: 83px;
@@ -112,10 +119,12 @@
   }
 
   .contacts__adress {
-    display: block;
+    display: flex;
+    align-items: flex-start;
     float: left;
     margin: 0;
     padding: 0;
+    vertical-align: top;
     font-family: $main-font;
     font-size: 17px;
     vertical-align: 30px;
@@ -130,8 +139,14 @@
     float: right;
     width: 525px;
     height: 457px;
-    margin-top: -230px;
+    margin-top: -200px;
     // top: 0;
     // right: 50px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .contacts__wrapper {
+    margin: 0 auto;
   }
 }

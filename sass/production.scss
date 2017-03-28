@@ -1,8 +1,6 @@
-
-  .production {
-    border: 1px solid $border-color;
-
-  }
+.production {
+  border: 1px solid $border-color;
+}
 
 .production__description {
   margin-left: 33px;
@@ -11,6 +9,23 @@
   font-size: 13px;
   line-height: 24px;
   color: $main-text-color;
+}
+
+.production{
+  position: relative;
+}
+
+.production::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100px;
+  height: 77px;
+  top: 120px;
+  left: 30%;
+  background: url("../img/icon-play.svg") no-repeat;
+  z-index: 25;
+
 }
 
 @media (min-width: 768px) {
