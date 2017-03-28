@@ -15,11 +15,40 @@
   flex-direction: column;
 }
 .form-type__item {
-  margin-top: 30px;
+  position: relative;
+  margin-top: 40px;
+
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
   color:$item-color;
+}
+
+.form-type input {
+  display: none;
+}
+
+.form-type__item::before {
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: -25px;
+  margin-right: 28px;
+  height: 50px;
+  width: 50px;
+  content: "";
+  border: 2px solid black;
+  border-radius: 50%;
+}
+input:checked + .form-type__item::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 40px;
+  left: 17px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $turquoise-color;
 }
 
 @media (min-width: 768px) {
