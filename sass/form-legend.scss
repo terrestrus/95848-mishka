@@ -19,6 +19,10 @@
 }
 
 @media (min-width: 768px) {
+  .form-legend {
+    position: static;
+    display: inline-block;
+  }
   .form-legend::after {
     display: none;
   }

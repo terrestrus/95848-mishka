@@ -46,3 +46,12 @@
     margin-right: 110px;
   }
 }
+
+@media (min-width: 1150px) {
+  .form-tel {
+    margin-left: -115px;
+    margin-right: -115px;
+    padding: 70px 115px 10px;
+    background: #f1f1f1;
+  }
+}

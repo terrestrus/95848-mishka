@@ -17,6 +17,8 @@
 }
 .form-color__item {
   position: relative;
+  display: flex;
+  align-items: center;
   margin-top: 25px;
   height: 50px;
   font-family: $main-font-bold;
@@ -28,6 +30,7 @@
 
  .form-color input {
    display: none;
+   position: relative;
 }
 
 .form-color__item::before {
@@ -35,8 +38,7 @@
   content: "";
   width: 50px;
   height: 50px;
-  margin-bottom: -20px;
-  margin-right: 29px;
+  margin-right: 24px;
   border: 2px solid black;
 }
 
@@ -44,11 +46,13 @@
     position: absolute;
     content: "";
     width: 15px;
-    height: 3px;
-    top: 25px;
-    left: 15px;
+    height: 28px;
+    top: 5px;
+    left: 20px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
     transform: rotate(45deg);
-    background: black;
+
 }
 
 @media (min-width: 768px) {
@@ -56,6 +60,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     margin-left: -50px;
     margin-right: -50px;
     padding: 50px 50px;
@@ -63,25 +68,41 @@
   }
 
   .form-color__items {
-      margin-left: 130px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
   }
 
   .form-color__item {
-    margin-top: 15px;
+    margin-top: 0;
+    width: 50%;
     font-family: $main-font-bold;
     font-size: 19px;
     line-height: 18px;
     color: $item-color;
   }
+
+  .form-color__item:first-child {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1150px) {
   .form-color__items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 86%;
   }
   .form-color__item {
     width: 33%;
   }
+
+  .form-color {
+    margin-left: -115px;
+    margin-right: -115px;
+    padding: 50px 115px ;
+
+  }
+
+
 }

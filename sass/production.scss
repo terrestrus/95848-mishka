@@ -33,9 +33,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 58px;
-    margin-left: 50px;
-    margin-right: 50px;
-    }
+  }
+
+  .production::before {
+    top: 140px;
+    left: 45%;
+  }
 
   .production__video {
     width: 100%;
@@ -55,6 +58,7 @@
       display: block;
       padding-right: 65px;
       width: 100%;
+      max-width: 1050px;
     }
 
   .production::after {
@@ -75,19 +79,10 @@
     margin-bottom: 54px;
     clear: right;
   }
-  //
-  // .production__video {
-  //   position: absolute;
-  //   width: 65%;
-  //   min-height: 455px;
-  //   top: 0;
-  //   left: 0;
-  //   padding-top: 0;
-  // }
-  //
-  // .production__description {
-  //   width: 230px;
-  //   margin-left: 75px;
-  // }
+}
 
+@media (min-width: 1350px) {
+  .production {
+    margin: 0 auto;
   }
+}

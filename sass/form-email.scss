@@ -46,3 +46,12 @@
     margin-right: 95px;
   }
 }
+
+@media (min-width: 1150px) {
+  .form-email {
+    margin-left: -115px;
+    margin-right: -115px;
+    padding: 70px 115px 50px;
+    background: #f1f1f1;
+  }
+}

@@ -2,6 +2,15 @@
   padding: 30px;
 }
 
+.catalog__cards {
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    padding: 80px 50px 0;
+  }
+}
 @media (min-width: 1150px) {
   .catalog {
     display: flex;
@@ -11,11 +20,19 @@
     margin: 0 50px;
   }
 
-  .catalog-cards {
+  .catalog__cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    max-width: 1050px;
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .catalog__cards{
+    margin: 0 auto;
   }
 }

@@ -10,18 +10,24 @@
   line-height: 16px;
   color: $turquoise-color;
 }
+
 .form-type__items {
   display: flex;
   flex-direction: column;
 }
 .form-type__item {
   position: relative;
-  margin-top: 40px;
-
+  display: flex;
+  align-items: center;
+  margin-top: 37px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
   color:$item-color;
+}
+
+.form-type__item span {
+  width: 130px;
 }
 
 .form-type input {
@@ -30,9 +36,7 @@
 
 .form-type__item::before {
   display: inline-block;
-  margin-top: 24px;
-  margin-bottom: -25px;
-  margin-right: 28px;
+  margin-right: 22px;
   height: 50px;
   width: 50px;
   content: "";
@@ -43,7 +47,7 @@ input:checked + .form-type__item::after {
   position: absolute;
   display: block;
   content: "";
-  top: 40px;
+  top: 17px;
   left: 17px;
   width: 20px;
   height: 20px;
@@ -63,4 +67,16 @@ input:checked + .form-type__item::after {
     margin-left: 130px;
   }
 
+  .form-type__item:first-child {
+    background: red;
+    color: red;
+  }
+
+}
+
+@media (min-width: 1150px) {
+  .form-type__item {
+    margin-top: 15px;
+    margin-left: 76px;
+  }
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.wrapper {
+.form__wrapper {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
@@ -37,7 +37,7 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper {
+  .form__wrapper {
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
@@ -64,9 +64,13 @@
 }
 
 @media (min-width: 1150px) {
+  .form__wrapper {
+    padding: 0 115px;
+  }
   .form-page__description {
-    padding-left: 170px;
-    padding-right: 160px;
+    padding-left: 150px;
+    padding-right: 180px;
+    padding-bottom: 0;
     box-sizing: border-box;
   }
 }
