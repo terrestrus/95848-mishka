@@ -86,7 +86,7 @@
 
   .about-us__item {
     display: inline-block;
-    max-width: 295px;
+    max-width: 290px;
     font-size: 20px;
     line-height: 22px;
     margin-bottom: 0;
@@ -120,16 +120,8 @@
 }
 
 @media (min-width: 1150px) {
-  .about-us {
-
-  }
-
-  .about-us__item {
-    width: 30%;
-    text-align:left;
-  }
-
-  .about-us__item:nth-child(even) {
-    margin-right: 115px;
-  }
+    .about-us__item {
+      width: 50%;
+      text-align:left;
+    }
 }
