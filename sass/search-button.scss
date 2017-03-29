@@ -1,9 +1,15 @@
-  .main-nav__item .search-button {
+.main-nav__item .search-button {
   margin-left: -55px;
 }
 
 .search-button span {
   margin-left: 25px;
+}
+
+.search-button:hover svg {
+  path {
+    fill: $turquoise-color;
+  }
 }
 
 @media (min-width: 768px) {

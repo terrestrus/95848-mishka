@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 206px;
+  min-height: 206px;
   box-sizing: border-box;
 }
 .menu__item {
 display: flex;
 align-items: center;
-min-height: 103px;
+max-height: 103px;
 min-width: 320px;
-padding: 30px 30px;
+padding: 30px 27px 32px;
 font-family: $main-font-bold;
 font-size: 19px;
 line-height: 24px;
@@ -20,8 +20,14 @@ color: white;
 box-sizing: border-box;
 }
 
+
 .menu__item:first-child {
   background: $turquoise-color ;
+
+  svg {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
 }
 
 .menu__item:last-child {
@@ -43,6 +49,11 @@ box-sizing: border-box;
 
   .menu__item {
     width: 100%;
+  }
+
+  .menu__item:hover {
+    height: 125px;
+    padding-top: 35px;
   }
 
 }

@@ -1,6 +1,6 @@
 .button {
   display: block;
-  padding: 18px 0;
+  padding: 12px 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 24px;
@@ -9,6 +9,11 @@
   border: 2px solid $main-text-color;
   text-align: center;
   text-decoration: none;
+}
+
+.button:hover {
+  background: #444444;
+  color: white;
 }
 
 .reviews .button {
@@ -29,11 +34,11 @@
 
 .contacts .button {
   margin-bottom: 39px;
-  margin-top: 39px;
+
 }
 
 .product-card .button {
-  margin-top: 28px;
+  margin-top: 27px;
   width: 256px;
 }
 

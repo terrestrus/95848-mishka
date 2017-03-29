@@ -5,8 +5,10 @@
 }
 
 .reviews .title {
+  margin: 0;
+  margin-bottom: 15px;
   font-family: $main-font-bold;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 30px;
 }
 
@@ -28,6 +30,20 @@
   height: 30px;
   margin-top: 0;
   background: url("../img/icon-video.svg");
+}
+
+.product-card .title {
+  margin-bottom: 5px;
+}
+
+.about-us .title {
+  margin-bottom: 29px;
+}
+
+.contacts .title {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 @media (min-width: 768px) {

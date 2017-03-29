@@ -7,6 +7,12 @@
   margin-left: 28px;
 }
 
+.cart-button:hover svg {
+  path {
+    fill: $turquoise-color;
+  }
+}
+
 @media (min-width: 768px) {
   .main-nav__item .cart-button {
     width: 265px;

@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.contacts__wrapper {
+  padding-top: 29px;
+  box-sizing: border-box;
+}
+
 .contacts__email {
   display: table-row;
   font-family: $main-font;
@@ -16,16 +21,21 @@
 
 .contacts__email a {
   margin-left: 25px;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   text-decoration: none;
   border-bottom: 1px solid $turquoise-color;
   color: $main-text-color;
 }
 
+.contacts__email a:hover  {
+  color: $turquoise-color;
+}
+
 .contacts__adress {
   display: flex;
   flex-direction: row;
-  margin-top: 43px;
+  margin-top: 32px;
+  margin-bottom: 37px;
   font-family: $main-font;
   font-size: 15px;
   line-height: 30px;
@@ -35,12 +45,15 @@
 .contacts__adress-concrete {
   display: inline-block;
   margin-left: 30px;
+  padding-right: 42px;
+  max-width: 162px;
 
 }
 
 .contacts__map {
-  margin-top: 50px;
-  width: 100%;
+  width: 120%;
+  margin-left: -30px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {

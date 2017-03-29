@@ -6,21 +6,30 @@
   box-sizing: border-box;
 }
 
-// .about-us__wrapper{
-//   display: flex;
-//   flex-direction: column;
-//   justify-content:
-// }
+.about-us__wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-top: 14px;
+}
 
 .about-us__item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 95px;
+  min-height: 95px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 20px;
   color: $item-color;
+}
+
+.about-us__item {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.about-us__item:nth-child(2) {
+  margin-top: 0;
 }
 
 .about-us__item--materials::before {
@@ -34,9 +43,9 @@
 .about-us__item--style::before {
   display: block;
   width: 50px;
-  height: 40px;
+  height: 30px;
   content: "";
-  background: url("../img/icon-feature-3.svg") no-repeat 50% 50%;
+  background: url("../img/icon-feature-3.svg") no-repeat 50% 100%;
 }
 
 .about-us__item--likes::before {
