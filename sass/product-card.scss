@@ -102,6 +102,8 @@
   .product-card__price {
     max-width: 293px;
     order: 5;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
@@ -114,13 +116,18 @@
     position: relative;
     max-width: 1050px;
     padding-left: 175px;
+    padding-top: 133px;
   }
 
   .product-card__action {
     left: 47px;
-    top: 15px;
+    top: 143px;
     width: 70px;
     height: 35px;
+  }
+
+  .product-card__image {
+    z-index: -11;
   }
 
 }
