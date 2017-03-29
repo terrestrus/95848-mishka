@@ -58,17 +58,17 @@
 @media (min-width: 768px) {
     .main-nav__toggle {
       display: none;
-   }
+    }
 
-   .main-nav-js {
-     position: static;
-   }
+    .main-nav-js {
+      position: static;
+    }
 
-   .main-nav__item a {
-     font-size: 17px;
-     line-height: 24px;
-     border-top: none;
-   }
+    .main-nav__item a {
+      font-size: 17px;
+      line-height: 24px;
+      border-top: none;
+    }
 
     .main-nav {
       flex-direction: row;
