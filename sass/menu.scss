@@ -42,13 +42,25 @@ box-sizing: border-box;
 @media (min-width: 768px) {
   .menu {
     flex-direction: row;
-    width: 80%;
+    width: 87%;
+    min-height: 118px;
+    margin-top: -110px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .menu__item {
     width: 100%;
+    min-height: 118px;
+    padding-left: 35px;
+  }
+
+  .menu__item:last-child svg {
+    margin-right: 6px;
+  }
+
+  .menu__item span  {
+    min-height: 50px;
   }
 
   .menu__item:hover {

@@ -61,13 +61,18 @@
     min-height: 640px;
     padding: 0 50px;
   }
+
+  .product-card__wrapper {
+    padding-top: 45px;
+  }
+
   .product-card__action {
     display: inline-block;
     max-width: 35px;
     position: absolute;
     left: 80%;
     top: 10px;
-    margin: 40px 10px;
+    margin: 45px 10px;
     font-display: 17px;
     text-transform: uppercase;
     order: 1;
@@ -77,13 +82,15 @@
     max-width: 293px;
     order: 2;
     margin-top: 0;
+    margin-bottom: 52px;
     font-size: 17px;
     vertical-align: 30px;
     text-align: left;
+    padding-top: 0;
   }
 
   .product-card__characteristics{
-    margin-top: 55px;
+
     max-width: 293px;
     order: 4;
   }
