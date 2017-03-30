@@ -1,0 +1,19 @@
+.main-nav .delivery-button {
+  display: none;
+}
+
+@media (min-width: 1150px) {
+  .main-nav .delivery-button {
+    display: inline-flex;
+
+    padding: 50px 0;
+    margin-left: -200px;
+    margin-bottom: -215px;
+    max-width: 50%;
+    order: 3;
+    font-size: 15px;
+    line-height: 24px;
+    color: $main-text-color;
+  }
+
+}

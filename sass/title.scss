@@ -18,6 +18,7 @@
   font-size: 17px;
   line-height: 24px;
   padding-left: 89px;
+  margin-top: 20px;
 }
 
 .production .title::before {
@@ -46,6 +47,13 @@
   line-height: 30px;
 }
 
+.catalog-product-card .title {
+  margin-bottom: 5px;
+  font-size: 17px;
+  line-height: 24px;
+
+}
+
 @media (min-width: 768px) {
   .product-card .title {
     display: inline-block;
@@ -57,6 +65,8 @@
   }
 
   .about-us .title {
+    margin-top: 25px;
+    margin-bottom: 38px;
     width: 100%;
     font-size: 43px;
     line-height: 50px;
@@ -70,6 +80,7 @@
   }
 
   .contacts .title {
+    margin-bottom: 36px;
     font-size: 43px;
     line-height: 50px;
     width: 100%;
@@ -93,7 +104,7 @@
   }
 
   .production .title {
-    margin-left: 44px;
+    margin-left: 0;
     margin-right: 44px;
     order: 1;
     font-size: 20px;
@@ -101,6 +112,7 @@
 
   .production .title::before {
     top: -5px;
+    left: 25px;
   }
 }
 
@@ -112,6 +124,12 @@
       z-index: 5;
   }
 
+  .contacts .title {
+    margin-top: 35px;
+    margin-bottom: 47px;
+    font-size: 53px;
+    line-height: 57px;
+  }
   .contacts .title::after {
     display: none;
   }
@@ -140,6 +158,18 @@
     margin-top: 30px;
     margin-bottom: 30px;
     background: url("../img/icon-video.svg");
+  }
+
+  .about-us .title {
+    margin-bottom: 45px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .reviews .title {
+    margin: 0;
+    font-size: 53px;
+    line-height: 57px;
   }
 
 }

@@ -15,7 +15,15 @@
 
 @media (min-width: 768px) {
   .main-nav__item .cart-button {
+    display: inline-flex;
     width: 265px;
     border-left: 1px solid $border-color;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-nav__item .cart-button {
+    width: auto;
+    padding-left: 38px;
   }
 }

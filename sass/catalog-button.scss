@@ -11,9 +11,11 @@
 
   @media (min-width: 1150px) {
     .main-nav__item .catalog-button {
-      width: 150px;
+      width: auto;
       margin-left: 0;
       margin-bottom: 0;
-      padding-right: 35px;
+      padding-right: 37px;
+      font-size: 17px;
+      text-align: left;
     }
   }

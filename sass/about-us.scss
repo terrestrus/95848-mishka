@@ -89,8 +89,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 635px;
-    margin: 0 auto;
+    max-width: 623px;
   }
 
   .about-us__item {
@@ -98,6 +97,7 @@
     max-width: 290px;
     font-size: 20px;
     line-height: 22px;
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 40px;
   }
@@ -129,8 +129,20 @@
 }
 
 @media (min-width: 1150px) {
+  .about-us {
+    padding-left: 225px;
+    padding-top: 75px;
+    padding-bottom: 90px;
+  }
+
+  .about-us__wrapper {
+    align-items: flex-start;
+    max-width: 677px;
+  }
     .about-us__item {
-      width: 50%;
+      max-width: 50%;
       text-align:left;
+      padding-right: 38px;
+      box-sizing: border-box;
     }
 }

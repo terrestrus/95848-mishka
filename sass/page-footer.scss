@@ -12,8 +12,9 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    margin-top: 57px;
+    margin-top: 65px;
     padding: 0 50px;
+    max-height: 100px;
   }
 
   .page-footer::before {
@@ -28,6 +29,6 @@
 
 @media (min-width: 1150px) {
   .page-footer {
-    margin-top: 105px;
+    margin-top: 27px;
   }
 }

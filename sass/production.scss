@@ -1,18 +1,14 @@
 .production {
+  position: relative;
   border: 1px solid $border-color;
 }
 
 .production__description {
-  margin-left: 33px;
-  margin-right: 33px;
+  margin: 0 33px 25px;
   font-family: $main-font;
   font-size: 13px;
   line-height: 24px;
   color: $main-text-color;
-}
-
-.production{
-  position: relative;
 }
 
 .production::before {
@@ -21,11 +17,16 @@
   content: "";
   width: 100px;
   height: 77px;
-  top: 120px;
+  top: 130px;
   left: 30%;
   background: url("../img/icon-play.svg") no-repeat;
   z-index: 25;
+}
 
+.production__video {
+  min-height: 160px;
+  max-width: 100%;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
@@ -42,11 +43,12 @@
 
   .production__video {
     width: 100%;
+    min-height: 450px;
+    margin-bottom: 15px;
   }
 
   .production__description {
-    margin-left: 44px;
-    margin-right: 44px;
+    margin: 15px 25px 35px;
     order: 2;
     font-size: 15px;
     line-height: 30px;
