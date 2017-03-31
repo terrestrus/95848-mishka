@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    margin-top: 65px;
+    margin-top: 0;
     padding: 0 50px;
     max-height: 100px;
   }
@@ -28,7 +28,5 @@
 }
 
 @media (min-width: 1150px) {
-  .page-footer {
-    margin-top: 92px;
-  }
+
 }

@@ -15,6 +15,10 @@
   font-size: 17px;
   line-height: 18px;
   color: $item-color;
+
+  [placeholder] {
+    font-family: $main-font;
+  }
 }
 
 .form-tel__item input {
@@ -32,23 +36,30 @@
     flex-direction: row;
     margin-left: -50px;
     margin-right: -50px;
-    padding: 70px 50px 10px;
+    padding: 55px 50px 10px;
     background: #f1f1f1;
   }
 
   .form-tel__item {
     width: 100%;
+
+    [placeholder] {
+      font-size: 19px;
+    }
   }
 
   .form-tel__item input {
+    width: 95%;
     padding-top: 10px;
+    padding-left: 15px;
     padding-bottom: 10px;
     background: #f1f1f1;
+    background: url("../img/icon-phone.svg") no-repeat 97% 50%;
   }
 
   .form-tel__legend {
     width: 70px;
-    margin-right: 110px;
+    margin-right: 115px;
   }
 }
 
@@ -56,7 +67,16 @@
   .form-tel {
     margin-left: -115px;
     margin-right: -115px;
-    padding: 70px 115px 10px;
+    padding: 55px 115px 10px 150px;
     background: #f1f1f1;
+  }
+
+  .form-tel__legend {
+    margin-right: 50px;
+  }
+
+  .form-tel__item input {
+    width: 80%;
+      background: url("../img/icon-phone.svg") no-repeat 100% 50%;
   }
 }

@@ -8,10 +8,11 @@
 
 @media (min-width: 768px) {
   .page-form__note{
+    display: inline-block;
     width: 305px;
-    float: right;
     text-align: right;
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-left: 165px;
     font-size: 17px;
     line-height: 30px;
   }

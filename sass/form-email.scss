@@ -16,6 +16,10 @@
   font-size: 17px;
   line-height: 18px;
   color: $item-color;
+
+  [placeholer] {
+    font-family: $main-font;
+  }
 }
 
 .form-email__item input {
@@ -33,18 +37,26 @@
     flex-direction: row;
     margin-left: -50px;
     margin-right: -50px;
-    padding: 70px 50px 50px;
+    padding: 20px 50px 50px;
     background: #f1f1f1;
   }
 
   .form-email__item {
     width: 100%;
+
+    [placeholder] {
+      font-family: $main-font;
+      font-size: 19px;
+    }
   }
 
   .form-email__item input {
+    width: 95%;
     padding-top: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
     background: #f1f1f1;
+    background: url("../img/icon-mail.svg") no-repeat 96% 66%;
   }
 
   .form-email__legend {
@@ -57,7 +69,16 @@
   .form-email {
     margin-left: -115px;
     margin-right: -115px;
-    padding: 70px 115px 50px;
+    padding: 20px 115px 50px 150px;
     background: #f1f1f1;
+  }
+
+  .form-email__legend {
+    margin-right: 32px;
+  }
+
+  .form-email__item input {
+    width: 80%;
+    background: url("../img/icon-mail.svg") no-repeat 100% 50%;
   }
 }

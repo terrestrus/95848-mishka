@@ -45,6 +45,35 @@
   }
 
   .form-additionals__legend {
-    margin-right: 120px;
+    margin-right: 130px;
+  }
+
+  .form-additionals__text {
+    padding-left: 10px;
+
+    [placeholder] {
+      font-size: 19px;
+    }
+  }
+}
+
+@media (min-width: 1150px) {
+  .form-additionals {
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-bottom: 0;
+  }
+
+  .form-additionals__legend {
+    margin-right: 70px;
+  }
+
+  .form-additionals__text {
+    width: 70%;
+    padding-left: 10px;
+
+    [placeholder] {
+      font-size: 19px;
+    }
   }
 }

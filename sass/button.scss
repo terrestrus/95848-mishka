@@ -74,7 +74,7 @@
   }
 
   .form-page .button {
-    width: 260px;
+    width: 230px;
     float: left;
     margin-top: 53px;
   }
@@ -89,7 +89,7 @@
   }
 
   .production .button {
-    float: right;
+    display: inline-block;
     width: 225px;
     margin-bottom: 58px;
     margin-left: 0;
@@ -98,8 +98,7 @@
   }
 
   .form-page .button {
-    width: 260px;
-    margin-left: 190px;
+    margin-left: 145px;
   }
 
   .product-card .button {

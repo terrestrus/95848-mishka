@@ -4,7 +4,7 @@
 }
 
 .cart-button span {
-  margin-left: 28px;
+  margin-left: 32px;
 }
 
 .cart-button:hover svg {
@@ -16,7 +16,7 @@
 @media (min-width: 768px) {
   .main-nav__item .cart-button {
     display: inline-flex;
-    width: 265px;
+    padding-left: 35px;
     border-left: 1px solid $border-color;
   }
 }

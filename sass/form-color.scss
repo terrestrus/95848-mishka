@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 5px;
+  box-sizing: border-box;
 }
 
 .form-color__legend {
@@ -35,7 +36,6 @@
   margin-top: 10px;
 }
 
-
   .form-color input {
     display: none;
     position: relative;
@@ -62,7 +62,6 @@
     border-bottom: 3px solid black;
     border-right: 3px solid black;
     transform: rotate(45deg);
-
 }
 
 @media (min-width: 768px) {
@@ -73,7 +72,7 @@
     justify-content: space-between;
     margin-left: -50px;
     margin-right: -50px;
-    padding: 50px 50px;
+    padding: 65px 50px 30px;
     background: #f1f1f1;
   }
 
@@ -81,12 +80,16 @@
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: flex-start;
+    width: 90%;
+    padding-left: 95px;
+    // padding-right: 15px;
+    box-sizing: border-box;
   }
 
   .form-color__item {
-    margin-top: 0;
+    align-items: flex-start;
+    margin-top: 15px;
     width: 50%;
     font-family: $main-font-bold;
     font-size: 19px;
@@ -94,24 +97,55 @@
     color: $item-color;
   }
 
-  .form-color__item:first-child {
+  .form-color__item:nth-child(3) {
+     margin-top: 0;
+  }
+
+  .form-color__item:nth-child(5) {
     margin-top: 0;
   }
+
+  .form-color__item::before {
+    width: 47px;
+    height: 47px;
+    margin-right: 25px;
+    margin-top: -15px;
+    margin-left: 2px;
+    border: 2px solid black;
+  }
+
+    input:checked + .form-color__item::after   {
+      position: absolute;
+      content: "";
+      width: 12px;
+      height: 27px;
+      top: -6px;
+      left: 20px;
+      border-bottom: 3px solid black;
+      border-right: 3px solid black;
+      transform: rotate(45deg);
+  }
+
 }
 
 @media (min-width: 1150px) {
   .form-color__items {
-    width: 86%;
+    justify-content: flex-start;
+    width: 90%;
+    padding-left: 0;
   }
   .form-color__item {
-    width: 33%;
+    width: 30%;
+  }
+
+  .form-color__item:nth-child(7) {
+    margin-top: 0;
   }
 
   .form-color {
     margin-left: -115px;
     margin-right: -115px;
-    padding: 50px 115px ;
-
+    padding: 70px 115px  27px 150px;
   }
 
 

@@ -41,20 +41,19 @@
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
   }
 
   .form-page__title {
-    min-height: 220px;
-    padding-top: 103px;
+    padding-top: 95px;
     font-family: $main-font-bold;
     font-size: 43px;
     line-height: 50px;
-
   }
 
   .form-page__description {
-    padding-top: 80px;
+    margin-bottom: 0;
+    padding-top: 50px;
     padding-bottom: 60px;
     font-family: $main-font;
     font-size: 17px;
@@ -65,12 +64,21 @@
 
 @media (min-width: 1150px) {
   .form__wrapper {
-    padding: 0 115px;
+    padding: 75px 80px 32px;
   }
+
   .form-page__description {
-    padding-left: 150px;
-    padding-right: 180px;
+    margin-top: 0;
+    padding-left: 145px;
+    padding-right: 170px;
     padding-bottom: 0;
     box-sizing: border-box;
+  }
+
+  .form-page__title {
+    padding-top: 95px;
+    padding-bottom: 93px;
+    font-size: 53px;
+    line-height: 57px;
   }
 }
