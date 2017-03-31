@@ -14,12 +14,15 @@
 .form-type__items {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
 }
 .form-type__item {
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 37px;
+  margin-top: 10px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
@@ -27,7 +30,12 @@
 }
 
 .form-type__item span {
+  margin-bottom: -15px;
   width: 130px;
+}
+
+.form-type__toy {
+  margin-top: 20px;
 }
 
 .form-type input {
@@ -36,21 +44,22 @@
 
 .form-type__item::before {
   display: inline-block;
-  margin-right: 22px;
-  height: 50px;
-  width: 50px;
+  margin-right: 25px;
+  height: 35px;
+  width: 35px;
   content: "";
   border: 2px solid black;
   border-radius: 50%;
 }
+
 input:checked + .form-type__item::after {
   position: absolute;
   display: block;
   content: "";
-  top: 17px;
-  left: 17px;
-  width: 20px;
-  height: 20px;
+  top: 12px;
+  left: 12px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background: $turquoise-color;
 }

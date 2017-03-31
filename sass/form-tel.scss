@@ -1,4 +1,8 @@
+.form-tel {
+  padding-bottom: 18px;
+}
 .form-tel__legend {
+  margin-bottom: 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 16px;
@@ -16,9 +20,10 @@
 .form-tel__item input {
   width: 100%;
   padding-top: 18px;
-  padding-bottom: 18px;
+  padding-bottom: 15px;
   border: none;
   border-bottom: 2px solid #000000;
+  background: url("../img/icon-phone.svg") no-repeat 97% 50%;
 }
 
 @media (min-width: 768px) {

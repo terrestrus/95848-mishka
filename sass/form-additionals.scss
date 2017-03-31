@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .form-additionals__legend {
+  margin-bottom: 25px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 16px;
@@ -18,8 +19,15 @@
 
 .form-additionals__text {
   width: 85%;
-  padding: 18px 20px;
+  max-height: 105px;
+  padding: 15px 18px;
   border: 2px solid #000000;
+
+  [placeholder] {
+    font-family: $main-font;
+    font-size: 17px;
+    line-height: 18px;
+  }
 }
 
 @media (min-width: 768px) {

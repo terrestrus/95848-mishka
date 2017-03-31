@@ -1,32 +1,40 @@
 .form-color {
   display: flex;
   flex-direction: column;
-  padding-bottom: 35px;
+  padding-bottom: 5px;
 }
 
 .form-color__legend {
+  margin-top: 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 16px;
   color: $turquoise-color;
   text-transform: capitalize;
 }
+
 .form-color__items {
   display: flex;
   flex-direction: column;
 }
+
 .form-color__item {
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 25px;
+
   height: 50px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
   color: $item-color;
-  padding-bottom: 20px;
-  }
+  padding-bottom: 10px;
+}
+
+.form-color__item:nth-child(3) {
+  margin-top: 10px;
+}
+
 
   .form-color input {
     display: none;
@@ -36,19 +44,21 @@
 .form-color__item::before {
   display: inline-block;
   content: "";
-  width: 50px;
-  height: 50px;
-  margin-right: 24px;
+  width: 34px;
+  height: 35px;
+  margin-right: 25px;
+  margin-top: -7px;
+  margin-left: 2px;
   border: 2px solid black;
 }
 
   input:checked + .form-color__item::after   {
     position: absolute;
     content: "";
-    width: 15px;
-    height: 28px;
-    top: 5px;
-    left: 20px;
+    width: 9px;
+    height: 21px;
+    top: 6px;
+    left: 15px;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
     transform: rotate(45deg);

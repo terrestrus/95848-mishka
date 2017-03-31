@@ -14,10 +14,9 @@
 
 .form-page__title {
   width: 100%;
-  margin:0;
-  padding-top: 75px;
-  padding-bottom: 80px;
-  max-height: 175px;
+  margin: 0 0 10px;
+  padding-top: 70px;
+  padding-bottom: 73px;
   text-align: center;
   font-family: $main-font-bold;
   font-size: 27px;
@@ -30,6 +29,7 @@
 
 .form-page__description {
   width: 100%;
+  margin-bottom: 10px;
   font-family: $main-font;
   font-size: 13px;
   line-height: 24px;

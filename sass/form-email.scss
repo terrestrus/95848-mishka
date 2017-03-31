@@ -1,4 +1,9 @@
+.form-email {
+  padding-bottom: 18px;
+}
+
 .form-email__legend {
+  margin-bottom: 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 16px;
@@ -16,9 +21,10 @@
 .form-email__item input {
   width: 100%;
   padding-top: 18px;
-  padding-bottom: 18px;
+  padding-bottom: 16px;
   border: none;
   border-bottom: 2px solid #000000;
+  background: url("../img/icon-mail.svg") no-repeat 100% 65%;
 }
 
 @media (min-width: 768px) {

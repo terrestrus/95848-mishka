@@ -14,20 +14,32 @@
 .form-user-name__items {
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .form-user-name__item {
   width: 100%;
-  margin-top: 35px;
+  margin-top: 25px;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 18px;
   color: $item-color;
+
+  [placeholder] {
+    font-size: 17px;
+    line-height: 18px;
+    color: #c7c7c7;
+  }
+}
+
+.form-user-name__item:first-child {
+  margin-top: 0;
 }
 
 .form-user-name__item input {
   width: 100%;
-  height: 40px;
+  height: 45px;
   vertical-align: bottom;
   border: none;
   border-bottom: 2px solid #000000;
