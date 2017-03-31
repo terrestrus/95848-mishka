@@ -58,9 +58,15 @@
   @media (min-width: 1150px) {
     .production {
       display: block;
-      padding-right: 65px;
+      margin-top: 0;
+      padding-right: 58px;
       width: 100%;
       max-width: 1050px;
+    }
+
+    .production::before {
+      top: 189px;
+      left: 28.5%;
     }
 
   .production::after {
@@ -77,8 +83,7 @@
   .production__description {
     float: right;
     width: 225px;
-    margin: 40px 0 46px;;
-    margin-bottom: 54px;
+    margin: 0 0 45px;;
     clear: right;
   }
 }

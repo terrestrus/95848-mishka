@@ -119,18 +119,19 @@
 
   .catalog-product-card__image {
     width: 100%;
-    min-height: 472px;
+    min-height: 460px;
+    margin-bottom: 30px;
   }
 
   .catalog-product-card__description {
     width: 100%;
     font-size: 15px;
-    margin: 20px 0 0;
+    margin:0;
     padding: 0;
   }
 
   .catalog-product-card__price-block {
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
 
   .catalog-product-card__price {

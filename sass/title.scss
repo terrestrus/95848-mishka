@@ -136,17 +136,19 @@
 
   .catalog-product-card .title {
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 3px;
     font-size: 20px;
     line-height: 24px;
   }
 
   .production .title {
     float: right;
-    width: 230px;
+    width: 225px;
     height: 100px;
-    margin-bottom: 42px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 56px;
   }
 
   .production .title::before {
@@ -155,8 +157,8 @@
     content: "";
     width: 35px;
     height: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     background: url("../img/icon-video.svg");
   }
 
