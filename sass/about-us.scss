@@ -47,7 +47,8 @@
   content: "";
   background: url("../img/icon-feature-3.svg") no-repeat 50% 100%;
 }
- .about-us__item--likes::before {
+
+  .about-us__item--likes::before {
   display: block;
   width: 50px;
   height: 40px;
