@@ -66,11 +66,12 @@
 
   .contacts__wrapper {
     padding-top: 85px;
+    padding-bottom: 55px;
   }
 
   .contacts__email {
     display: inline-flex;
-    width: 49%;
+    width: 45%;
     min-height: 75px;
     font-family: $main-font;
     font-size: 17px;
@@ -84,22 +85,26 @@
     display: inline-flex;
     align-items: flex-start;
     margin-top: 0;
-    padding-left: 3px;
-    max-width: 48%;
+    margin-bottom: 55px;
+    padding-left: 30px;
+    max-width: 53%;
     font-family: $main-font;
     font-size: 17px;
   }
 
   .contacts__adress-concrete {
     padding: 0;
-    min-width: 75%;
+    min-width: 80%;
+    font-size: 17px;
+    line-height: 30px;
+    box-sizing: border-box;
   }
 
   .contacts__map {
     width: 100%;
     margin-top: 0;
     margin-left: -50px;
-    margin-bottom: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -111,7 +116,8 @@
 
   .contacts__wrapper {
     position: relative;
-    max-width: 1050px;
+    width: 1050px;
+    padding-bottom: 20px;
   }
 
   .contacts__wrapper::before {
@@ -168,6 +174,7 @@
     width: 525px;
     height: 457px;
     margin-top: -200px;
+    clear: right;
     // top: 0;
     // right: 50px;
   }

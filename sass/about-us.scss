@@ -47,13 +47,12 @@
   content: "";
   background: url("../img/icon-feature-3.svg") no-repeat 50% 100%;
 }
-
-.about-us__item--likes::before {
+ .about-us__item--likes::before {
   display: block;
   width: 50px;
   height: 40px;
   content: "";
-  background: url("../img/icon-feature-5.svg") no-repeat 50% 50%;
+  background: url("../img/icon-feature-5.svg") no-repeat 50% 0%;
 }
 
 .about-us__item--love::before {
@@ -69,7 +68,7 @@
   width: 50px;
   height: 40px;
   content: "";
-  background: url("../img/icon-feature-4.svg") no-repeat 50% 50%;
+  background: url("../img/icon-feature-4.svg") no-repeat 50% 40%;
 }
 
 .about-us__item--packaging::before {
@@ -77,33 +76,53 @@
   width: 50px;
   height: 40px;
   content: "";
-  background: url("../img/icon-feature-6.svg") no-repeat 50% 50%;
+  background: url("../img/icon-feature-6.svg") no-repeat 35% 1%;
 }
 
 @media (min-width: 768px) {
   .about-us {
     padding: 0 50px;
   }
+
   .about-us__wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 623px;
+    padding-top: 10px;
   }
 
   .about-us__item {
     display: inline-block;
-    max-width: 290px;
+    max-width: 300px;
     font-size: 20px;
     line-height: 22px;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
   }
 
   .about-us__item::before {
+    max-height: 35px;
     margin-bottom: 20px;
+  }
+
+  .about-us__item--style::before {
+    margin-top: 10px;
+  }
+
+  .about-us__item--likes::before {
+    margin-top: 10px;
+  }
+
+  .about-us__item--packaging::before {
+    margin-top: 10px;
+  }
+
+  .about-us__item--manufacturer::before {
+    margin-top: 10px;
   }
 
   .about-us__item--style {
@@ -132,17 +151,20 @@
   .about-us {
     padding-left: 225px;
     padding-top: 75px;
-    padding-bottom: 90px;
+    padding-bottom: 55px;
   }
 
   .about-us__wrapper {
     align-items: flex-start;
     max-width: 677px;
+    padding-right: 225px;
   }
+
     .about-us__item {
-      max-width: 50%;
+      max-width: 300px;
       text-align:left;
-      padding-right: 38px;
+      padding-right: 0;
       box-sizing: border-box;
     }
-}
+
+  }

@@ -1,6 +1,7 @@
 .form-color {
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
   padding-bottom: 5px;
   box-sizing: border-box;
 }
@@ -70,8 +71,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: -50px;
-    margin-right: -50px;
     padding: 65px 50px 30px;
     background: #f1f1f1;
   }
@@ -131,9 +130,12 @@
 @media (min-width: 1150px) {
   .form-color__items {
     justify-content: flex-start;
-    width: 90%;
+    width: 86%;
     padding-left: 0;
+    margin-right: 35px;
   }
+
+
   .form-color__item {
     width: 30%;
   }
@@ -143,9 +145,8 @@
   }
 
   .form-color {
-    margin-left: -115px;
-    margin-right: -115px;
-    padding: 70px 115px  27px 150px;
+      padding: 70px 20px  27px 115px;
+      box-sizing: border-box;
   }
 
 

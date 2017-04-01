@@ -55,7 +55,7 @@
     padding: 13px 0;
     order: 1;
     margin-bottom:auto;
-    margin-top: 86px;
+    margin-top: 0;
     margin-left: auto;
   }
 
@@ -67,8 +67,8 @@
   }
 
   .production .button {
-    margin-left: 25px;
-    margin-right: 55px;
+    margin-left: 37px;
+    margin-right: 45px;
     margin-bottom: 44px;
     order: 3;
   }
@@ -77,6 +77,7 @@
     width: 230px;
     float: left;
     margin-top: 53px;
+    margin-left: 50px;
   }
 }
 
@@ -89,7 +90,8 @@
   }
 
   .production .button {
-    display: inline-block;
+    display: block;
+    float: right;
     width: 225px;
     margin-bottom: 58px;
     margin-left: 0;
@@ -111,5 +113,9 @@
     margin-top: 7px;
   }
 
+  .form-page .button {
+
+    margin-left: 225px;
+  }
 
 }

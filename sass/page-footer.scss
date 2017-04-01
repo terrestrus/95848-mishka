@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: $footer-background;
-  min-height: 150px;
+  min-height: 140px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -14,7 +14,6 @@
     width: 100%;
     margin-top: 0;
     padding: 0 50px;
-    max-height: 100px;
   }
 
   .page-footer::before {

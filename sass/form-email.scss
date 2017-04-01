@@ -1,4 +1,5 @@
 .form-email {
+  padding: 0 30px;
   padding-bottom: 18px;
 }
 
@@ -35,8 +36,6 @@
   .form-email {
     display: flex;
     flex-direction: row;
-    margin-left: -50px;
-    margin-right: -50px;
     padding: 20px 50px 50px;
     background: #f1f1f1;
   }
@@ -67,9 +66,7 @@
 
 @media (min-width: 1150px) {
   .form-email {
-    margin-left: -115px;
-    margin-right: -115px;
-    padding: 20px 115px 50px 150px;
+    padding: 20px 115px 50px 115px;
     background: #f1f1f1;
   }
 
@@ -78,7 +75,7 @@
   }
 
   .form-email__item input {
-    width: 80%;
-    background: url("../img/icon-mail.svg") no-repeat 100% 50%;
+    width: 85%;
+    background: url("../img/icon-mail.svg") no-repeat 98% 50%;
   }
 }

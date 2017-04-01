@@ -1,7 +1,7 @@
 .form-type {
   display: flex;
   flex-direction: column;
-  padding-bottom: 32px;
+  padding: 0 30px 32px;
 }
 
 .form-type__legend {
@@ -68,6 +68,8 @@ input:checked + .form-type__item::after {
   .form-type {
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 47px;
   }
 
@@ -111,7 +113,8 @@ input:checked + .form-type__item::after {
 @media (min-width: 1150px) {
   .form-type {
     padding-top: 60px;
-    padding-left: 35px;
+    padding-left: 115px;
+    padding-right: 120px;
   }
 
   .form-type__item {

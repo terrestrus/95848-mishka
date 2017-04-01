@@ -5,6 +5,7 @@
   min-height: 206px;
   box-sizing: border-box;
 }
+
 .menu__item {
 display: flex;
 align-items: center;
@@ -44,7 +45,7 @@ box-sizing: border-box;
     flex-direction: row;
     width: 87%;
     min-height: 118px;
-    margin-top: -110px;
+    margin-top: -112px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -60,7 +61,7 @@ box-sizing: border-box;
   }
 
   .menu__item span  {
-    min-height: 50px;
+    min-height: 45px;
   }
 
   .menu__item:hover {
@@ -75,6 +76,6 @@ box-sizing: border-box;
     width: 100%;
     padding:  0 50px;
     max-height: 130px;
-    margin-top: -110px;
+    margin-top: -112px;
   }
 }
