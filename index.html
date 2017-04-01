@@ -149,15 +149,12 @@
           <h2 class="title">Добавить в корзину</h2>
           <div class="to-cart__option-name">Выберите размер</div>
           <form class="to-cart__options" method="post" action="https://echo.htmlacademy.ru/">
-            <label class="to-cart__option-item">
-            <input  type="checkbox" name="s-size" value="s-size">
-            S</label>
-            <label class="to-cart__option-item">
-            <input type="checkbox" name="m-size" value="m-size">
-            M</label>
-            <label class="to-cart__option-item">
-            <input type="checkbox" name="l-size" value="l-size">
-            L</label>
+            <input id="s-size" type="checkbox" name="s-size" value="s-size">
+            <label for="s-size" class="to-cart__option-item">S</label>
+            <input id="m-size" type="checkbox" name="m-size" value="m-size">
+            <label for="m-size" class="to-cart__option-item">M</label>
+            <input id="l-size" type="checkbox" name="l-size" value="l-size">
+            <label for="l-size" class="to-cart__option-item">L</label>
             <button class="button" type="submit" name="submit" >Добавить</button>
           </form>
         </section>
