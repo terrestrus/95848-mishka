@@ -31,6 +31,14 @@
   }
 }
 
+.form-additionals__text:active {
+  border-color: $turquoise-color;
+}
+
+.form-additionals__text:hover {
+  border-color: $turquoise-color;
+}
+
 @media (min-width: 768px) {
   .form-additionals {
     display: flex;

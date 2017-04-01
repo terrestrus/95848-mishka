@@ -7,6 +7,20 @@
   box-sizing: border-box;
 }
 
+.catalog-product-card:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+  .catalog-product-card__to-cart  svg{
+    path {
+      fill: $turquoise-color;
+    }
+  }
+
+  .title {
+    color: #666666;
+  }
+}
+
 .catalog-product-card__description {
   font-family: $main-font;
   font-size: 13px;

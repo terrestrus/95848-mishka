@@ -52,6 +52,14 @@
   border-radius: 50%;
 }
 
+
+  .form-type__item::before:hover {
+
+    border-color:  $turquoise-color;
+
+  }
+
+
 input:checked + .form-type__item::after {
   position: absolute;
   display: block;

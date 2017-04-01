@@ -31,6 +31,14 @@
   background: url("../img/icon-phone.svg") no-repeat 97% 50%;
 }
 
+.form-tel__item input:active {
+  border-color: $turquoise-color;
+}
+
+.form-tel__item input:hover {
+  border-color: $turquoise-color;
+}
+
 @media (min-width: 768px) {
   .form-tel {
     display: flex;

@@ -17,6 +17,13 @@
   background: $footer-background;
 }
 
+.developed-by:hover {
+  path {
+    fill: $turquoise-color;
+  }
+  color: $turquoise-color;
+}
+
 @media (min-width: 768px) {
   .developed-by {
     display: inline-flex;

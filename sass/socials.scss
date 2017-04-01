@@ -13,10 +13,14 @@
   display: inline-block;
   height: 29px;
   width: 22px;
-
   margin-left: 37px;
   padding-top: 10px;
+}
 
+.socials__item:hover  {
+  path {
+    fill: $turquoise-color;
+  }
 }
 
 .socials__item:first-child {
