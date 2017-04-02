@@ -1,6 +1,6 @@
 .button {
   display: block;
-  padding: 18px 0;
+  padding: 12px 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 24px;
@@ -9,6 +9,18 @@
   border: 2px solid $main-text-color;
   text-align: center;
   text-decoration: none;
+}
+
+.to-cart .button {
+  width: 100%;
+  background: $turquoise-color;
+  border-color: $turquoise-color;
+  color: white;
+}
+
+.button:hover {
+  background: #444444;
+  color: white;
 }
 
 .reviews .button {
@@ -23,50 +35,94 @@
 
 .form-page .button {
   width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts .button {
+  margin-bottom: 39px;
+
+}
+
+.product-card .button {
+  margin-top: 27px;
+  width: 256px;
 }
 
 @media (min-width: 768px) {
   .product-card .button {
-    width: 40%;
+    margin-top: 35px;
+    width: 290px;
     order: 7;
   }
 
   .reviews .button {
     width: 171px;
+    max-height: 48px;
+    padding: 13px 0;
     order: 1;
     margin-bottom:auto;
-    margin-top: 80px;
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .contacts .button {
     width: 230px;
-    margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
   }
 
   .production .button {
-    margin-left: 44px;
-    margin-right: 44px;
+    margin-left: 37px;
+    margin-right: 45px;
     margin-bottom: 44px;
     order: 3;
+  }
+
+  .form-page .button {
+    width: 230px;
+    float: left;
+    margin-top: 53px;
+    margin-left: 50px;
   }
 }
 
 @media (min-width: 1150px) {
-  .product-card .button {
-    margin-left: 225px;
-  }
-
   .contacts .button {
-    margin-right: auto;
-    margin-left: 0;
+    float: left;
+    width: 230px;
+    clear: left;
+    margin: 80px 0 0;
   }
 
   .production .button {
-    margin-left: 80px;
-    min-width: 230px;
+    display: block;
+    float: right;
+    width: 225px;
+    margin-bottom: 58px;
+    margin-left: 0;
+    margin-right: 0;
+    clear: right;
   }
 
+  .form-page .button {
+    margin-left: 145px;
+  }
+
+  .product-card .button {
+    width: 289px;
+    padding: 13px 0;
+    margin: 0;
+  }
+
+  .reviews .button {
+    margin-top: 7px;
+  }
+
+  .form-page .button {
+
+    margin-left: 225px;
+  }
 
 }

@@ -1,0 +1,29 @@
+.form-legend {
+  position: relative;
+  padding-right: 0;
+  text-transform: uppercase;
+}
+
+.form-legend::after {
+  content:"";
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 198px;
+  height: 2px;
+  background-color: $turquoise-color;
+}
+
+.form-email__legend::after {
+  width: 176px;
+}
+
+@media (min-width: 768px) {
+  .form-legend {
+    position: static;
+    display: inline-block;
+  }
+  .form-legend::after {
+    display: none;
+  }
+}

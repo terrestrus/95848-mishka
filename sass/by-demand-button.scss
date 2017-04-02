@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .main-nav__item .by-demand-button {
+    width: 148px;
+    margin-left: -43%;
+    margin-bottom: -150px;
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-nav__item .by-demand-button  {
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    padding-left: 35px;
+    border-left: 1px solid $border-color;
+    font-size: 17px;
+  }
+}

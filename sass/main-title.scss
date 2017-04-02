@@ -1,6 +1,7 @@
 .main-title {
   vertical-align: middle;
   margin: auto;
+  margin-top: 70px;
   text-align: center;
   font-size: 27px;
   font-weight: bold;
@@ -9,18 +10,39 @@
 }
 
 .promo-block .main-title {
-  padding: 0 38px;
+  margin-top: 70px;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .promo-block .main-title {
+    margin-top: 155px;
+    margin-bottom: 375px;
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .page-name .main-title {
+    margin: 95px auto 70px;
+    font-family: $main-font-bold;
+    font-size: 43px;
+    line-height: 50px;
+  }
 }
 
 @media (min-width: 1150px) {
   .promo-block .main-title {
     width: 615px;
-    margin-top: 165px;
+    min-height: 90px;
+    margin: 380px auto;
+    margin-top: 155px;
     font-size: 53px;
     line-height: 57px;
+    order: 5;
   }
 
   .page-name .main-title {
+    margin-top: 75px;
     font-size: 53px;
     line-height: 57px;
   }

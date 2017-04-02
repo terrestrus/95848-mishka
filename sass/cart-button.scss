@@ -1,0 +1,31 @@
+.main-nav__item .cart-button {
+  margin-left: -25px;
+  padding-left: 15px;
+}
+
+.cart-button span {
+  margin-left: 32px;
+}
+
+.cart-button:hover svg {
+  path {
+    fill: $turquoise-color;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-nav__item .cart-button {
+    display: inline-flex;
+    margin-right: -135px;
+    padding-left: 30px;
+    border-left: 1px solid $border-color;
+  }
+}
+
+@media (min-width: 1150px) {
+  .main-nav__item .cart-button {
+    width: auto;
+    padding-left: 32px;
+    margin-right: -140px;
+  }
+}

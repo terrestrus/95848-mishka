@@ -2,14 +2,16 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-height: 206px;
   box-sizing: border-box;
 }
+
 .menu__item {
 display: flex;
 align-items: center;
-min-height: 103px;
+max-height: 103px;
 min-width: 320px;
-padding: 30px 30px;
+padding: 30px 27px 32px;
 font-family: $main-font-bold;
 font-size: 19px;
 line-height: 24px;
@@ -19,30 +21,61 @@ color: white;
 box-sizing: border-box;
 }
 
+
 .menu__item:first-child {
-  background: $turquoise-color url("../img/icon-interior.svg") no-repeat 70% 50%;
+  background: $turquoise-color ;
+
+  svg {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
 }
 
 .menu__item:last-child {
-  background:  #56c3b2 url("../img/icon-toy.svg") no-repeat 70% 50%;
+  background:  #56c3b2 ;
+}
+
+.menu__item span {
+  width: 106px;
+  margin-right: auto;
 }
 
 @media (min-width: 768px) {
   .menu {
     flex-direction: row;
-    width: 80%;
+    width: 87%;
+    min-height: 118px;
+    margin-top: -112px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .menu__item {
     width: 100%;
+    min-height: 118px;
+    padding-left: 35px;
+  }
+
+  .menu__item:last-child svg {
+    margin-right: 6px;
+  }
+
+  .menu__item span  {
+    min-height: 45px;
+  }
+
+  .menu__item:hover {
+    height: 125px;
+    padding-top: 35px;
   }
 
 }
 
 @media (min-width: 1150px) {
-  width: 100%;
-  margin-left: 50px;
-  margin-right: 50px;
+  .menu {
+    width: 100%;
+    padding:  0 50px;
+    max-height: 130px;
+    margin-top: -112px;
+  }
 }

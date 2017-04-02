@@ -1,7 +1,16 @@
 .catalog {
-  padding: 30px;
+  padding: 27px 30px 55px;
 }
 
+.catalog__cards {
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    padding: 90px 50px 0;
+  }
+}
 @media (min-width: 1150px) {
   .catalog {
     display: flex;
@@ -9,5 +18,22 @@
     flex-wrap: wrap;
     padding: 0;
     margin: 0 50px;
+  }
+
+  .catalog__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 850px;
+    max-width: 1050px;
+    padding-top: 135px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .catalog__cards{
+    margin: 0 auto;
   }
 }

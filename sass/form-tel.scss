@@ -1,4 +1,9 @@
+.form-tel {
+  padding: 0 30px;
+  padding-bottom: 18px;
+}
 .form-tel__legend {
+  margin-bottom: 0;
   font-family: $main-font-bold;
   font-size: 17px;
   line-height: 16px;
@@ -11,4 +16,72 @@
   font-size: 17px;
   line-height: 18px;
   color: $item-color;
+
+  [placeholder] {
+    font-family: $main-font;
+  }
+}
+
+.form-tel__item input {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #000000;
+  background: url("../img/icon-phone.svg") no-repeat 97% 50%;
+}
+
+.form-tel__item input:active {
+  border-color: $turquoise-color;
+}
+
+.form-tel__item input:hover {
+  border-color: $turquoise-color;
+}
+
+@media (min-width: 768px) {
+  .form-tel {
+    display: flex;
+    flex-direction: row;
+    padding: 55px 50px 10px;
+    background: #f1f1f1;
+  }
+
+  .form-tel__item {
+    width: 100%;
+
+    [placeholder] {
+      font-size: 19px;
+    }
+  }
+
+  .form-tel__item input {
+    width: 95%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background: #f1f1f1;
+    background: url("../img/icon-phone.svg") no-repeat 97% 50%;
+  }
+
+  .form-tel__legend {
+    width: 70px;
+    margin-right: 115px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .form-tel {
+    padding: 55px 110px 10px 115px;
+    background: #f1f1f1;
+  }
+
+  .form-tel__legend {
+    margin-right: 50px;
+  }
+
+  .form-tel__item input {
+    width: 84%;
+      background: url("../img/icon-phone.svg") no-repeat 98% 40%;
+  }
 }

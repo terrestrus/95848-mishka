@@ -4,60 +4,183 @@
   line-height: 30px;
 }
 
+.reviews .title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: $main-font-bold;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.production .title {
+  position: relative;
+  font-family: $main-font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  padding-left: 89px;
+  margin-top: 25px;
+}
+
+.to-cart .title {
+  margin-bottom: 40px;
+}
+
+.production .title::before {
+  position: absolute;
+  top: 7px;
+  left: 33px;
+  display: block;
+  content: "";
+  width: 35px;
+  height: 30px;
+  margin-top: 0;
+  background: url("../img/icon-video.svg");
+}
+
+.product-card .title {
+  margin-bottom: 5px;
+}
+
+.about-us .title {
+  margin-bottom: 29px;
+}
+
+.contacts .title {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.catalog-product-card .title {
+  margin-top: 13px;
+  margin-bottom: 5px;
+  width: 197px;
+  font-size: 17px;
+  line-height: 24px;
+
+}
+
 @media (min-width: 768px) {
   .product-card .title {
     display: inline-block;
-    min-width: 85%;
+    max-width: 500px;
     font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 52px;
     line-height: 50px;
   }
 
   .about-us .title {
+    margin-top: 25px;
+    margin-bottom: 45px;
     width: 100%;
     font-size: 43px;
     line-height: 50px;
   }
 
   .reviews .title {
-    margin-top: 85px;
+    display: inline-block;
+    margin-top: 0;
     font-size: 43px;
     line-height: 50px;
-    width: 70%;
   }
 
   .contacts .title {
+    margin-bottom: 36px;
     font-size: 43px;
     line-height: 50px;
     width: 100%;
   }
 
+  .contacts .title::after {
+      content: "";
+      display: block;
+      height: 83px;
+      width: 50px;
+      margin-left: auto;
+      margin-top: -70px;
+      background: url("../img/icon-flag.svg") no-repeat;
+  }
+
   .catalog-product-card .title {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 0;
     font-size: 20px;
     line-height: 24px;
   }
 
   .production .title {
-    margin-left: 44px;
-    margin-right: 44px;
+    margin-left: 0;
+    padding-left: 100px;
     order: 1;
+    font-size: 20px;
+  }
+
+  .production .title::before {
+    top: -5px;
+    left: 37px;
   }
 }
 
 @media (min-width: 1150px) {
   .product-card .title {
-    margin-left: 225px;
+    max-width: 530px;
+    margin-bottom: 50px;
+    font-size: 53px;
+    line-height: 57px;
     z-index: 5;
+  }
+
+  .contacts .title {
+    margin-top: 35px;
+    margin-bottom: 47px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+  .contacts .title::after {
+    display: none;
   }
 
   .catalog-product-card .title {
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 3px;
     font-size: 20px;
     line-height: 24px;
   }
 
   .production .title {
-    display: inline-block;
-    width: 230px;
+    float: right;
+    width: 225px;
     height: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 56px;
+    margin-top: 20px;
   }
+
+  .production .title::before {
+    position: static;
+    display: block;
+    content: "";
+    width: 35px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background: url("../img/icon-video.svg");
+  }
+
+  .about-us .title {
+    margin-bottom: 50px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .reviews .title {
+    margin: 0;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
 }
