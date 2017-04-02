@@ -82,6 +82,7 @@
     align-items: flex-start;
     background: url("../img/bg-zigzag-line.svg") no-repeat;
     background-position: top;
+
   }
 
   .contacts__wrapper {
@@ -145,7 +146,10 @@
     padding-left: 225px;
     padding-top: 85px;
     box-sizing: border-box;
+    background: url("../img/bg-zigzag-line.svg") no-repeat;
+    background-position: top;
     background-size: contain;
+    box-sizing: border-box;
   }
 
   .contacts__wrapper {
@@ -225,8 +229,8 @@
   }
 }
 
-@media (min-width: 1350px) {
-  .contacts__wrapper {
-    margin: 0 auto;
-  }
-}
+// @media (min-width: 1350px) {
+//   .contacts__wrapper {
+//     margin: 0 auto;
+//   }
+// }
