@@ -82,8 +82,6 @@
     align-items: flex-start;
     background: url("../img/bg-zigzag-line.svg") no-repeat;
     background-position: top;
-
-
   }
 
   .contacts__wrapper {
@@ -147,6 +145,7 @@
     padding-left: 225px;
     padding-top: 85px;
     box-sizing: border-box;
+    background-size: contain;
   }
 
   .contacts__wrapper {
@@ -217,7 +216,6 @@
   }
 
   .contacts__map::before {
-
     width: 70px;
     height: 100px;
     top: -10px;;
