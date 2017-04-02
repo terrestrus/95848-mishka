@@ -48,7 +48,13 @@
   .reviews {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 105px 50px 35px;
+    padding: 75px 50px 35px;
+    background: url("../img/review@1x.jpg") no-repeat 6%;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background: url("../img/review@2x.jpg") no-repeat 6%;
+      background-size: 352px auto;
+    }
   }
 
   .reviews__text {
@@ -85,8 +91,9 @@
 
 @media (min-width: 1150px) {
   .reviews {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 225px;
+    padding-bottom: 60px;
   }
 
   .reviews__text {

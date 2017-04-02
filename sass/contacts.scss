@@ -66,7 +66,7 @@
 
   .contacts__wrapper {
     padding-top: 85px;
-    padding-bottom: 55px;
+    padding-bottom: 60px;
   }
 
   .contacts__email {
@@ -85,7 +85,7 @@
     display: inline-flex;
     align-items: flex-start;
     margin-top: 0;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
     padding-left: 30px;
     max-width: 53%;
     font-family: $main-font;
@@ -94,16 +94,18 @@
 
   .contacts__adress-concrete {
     padding: 0;
+    margin-left: 25px;
     min-width: 80%;
     font-size: 17px;
     line-height: 30px;
     box-sizing: border-box;
   }
 
-  .contacts__map {
-    width: 100%;
+  .contacts__map img{
+
     margin-top: 0;
     margin-left: -50px;
+    margin-right: -50px;
     margin-bottom: 50px;
   }
 }
@@ -111,13 +113,15 @@
 @media (min-width: 1150px) {
   .contacts {
     padding-left: 225px;
-    padding-top: 135px;
+    padding-top: 115px;
+    box-sizing: border-box;
   }
 
   .contacts__wrapper {
     position: relative;
     width: 1050px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
   }
 
   .contacts__wrapper::before {
@@ -168,12 +172,13 @@
     // padding-right: 35px;
   }
 
-  .contacts__map {
+  .contacts__map img{
     // position: absolute;
     float: right;
     width: 525px;
     height: 457px;
-    margin-top: -200px;
+    margin-top: -230px;
+    margin-right: 5px;
     clear: right;
     // top: 0;
     // right: 50px;
