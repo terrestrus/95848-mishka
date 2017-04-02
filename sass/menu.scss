@@ -49,6 +49,7 @@ box-sizing: border-box;
     margin-top: -112px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
   }
 
   .menu::after {
@@ -57,8 +58,8 @@ box-sizing: border-box;
     content: "";
     width: 100%;
     height: 15px;
-    top: 91%;
-    background: url("../img/bg-zigzag-fill.svg") ;
+    top: 88%;
+    background:  url("../img/bg-zigzag-fill.svg");
   }
 
   .menu__item {
@@ -84,8 +85,8 @@ box-sizing: border-box;
 
 @media (min-width: 1150px) {
   .menu {
-    width: 100%;
-    padding:  0 50px;
+    width: 91%;
+    //padding:  0 50px;
     max-height: 130px;
     margin-top: -112px;
   }

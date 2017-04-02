@@ -92,7 +92,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 630px;
-    padding-top: 10px;
+    //padding-top: 10px;
   }
 
   .about-us__item {
@@ -116,11 +116,11 @@
   }
 
   .about-us__item--likes::before {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .about-us__item--packaging::before {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .about-us__item--manufacturer::before {
@@ -152,7 +152,7 @@
 @media (min-width: 1150px) {
   .about-us {
     padding-left: 225px;
-    padding-top: 75px;
+    padding-top: 25px;
     padding-bottom: 15px;
   }
 
