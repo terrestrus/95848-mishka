@@ -22,8 +22,12 @@
     width: 100%;
     height: 25px;
     top: 94%;
-    background: url("../img/bg-zigzag-fill.svg") no-repeat;
+
+    background: url("../img/bg-zigzag-fill.svg") no-repeat ;
+    background-size: contain;
+
   }
+
 
 }
 
@@ -42,7 +46,7 @@
     width: 100%;
     height: 20px;
     top: 95%;
+    left:0;
     background: url("../img/bg-zigzag-fill.svg") no-repeat;
   }
-
 }

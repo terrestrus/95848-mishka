@@ -65,6 +65,7 @@
     padding: 0 50px;
     background: url("../img/bg-zigzag-line.svg") no-repeat ;
     background-position: bottom;
+
   }
 
   .product-card__wrapper {
@@ -139,9 +140,11 @@
 
 @media (min-width: 1150px) {
   .product-card {
+    width: 100%;
     padding: 0 50px 50px;
     background: url("../img/bg-zigzag-line.svg") no-repeat ;
     background-position: bottom;
+    background-size: contain;
   }
 
   // .product-card::after {
@@ -192,9 +195,9 @@
 }
 
 
-@media (min-width: 1350px) {
-  .product-card__wrapper {
-    min-width: 1050px;
-    margin: 0 auto;
-  }
-}
+// @media (min-width: 1350px) {
+//   .product-card__wrapper {
+//     // min-width: 1050px;
+//   //  margin: 0 auto;
+//   }
+// }
