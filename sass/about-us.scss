@@ -168,4 +168,12 @@
       box-sizing: border-box;
     }
 
+   .about-us__item--likes::before {
+      margin-bottom: 15px;
+    }
+
+    .about-us__item--packaging::before {
+      margin-bottom: 15px;
+    }
+
   }
