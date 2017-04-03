@@ -39,6 +39,7 @@
 
 .product-card .title {
   margin-bottom: 5px;
+  z-index: 10;
 }
 
 .about-us .title {
@@ -127,7 +128,7 @@
 
 @media (min-width: 1150px) {
   .product-card .title {
-    max-width: 530px;
+    max-width: 930px;
     margin-bottom: 50px;
     font-size: 53px;
     line-height: 57px;

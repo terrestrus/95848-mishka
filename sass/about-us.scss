@@ -92,7 +92,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 630px;
-    //padding-top: 10px;
   }
 
   .about-us__item {
@@ -129,7 +128,6 @@
 
   .about-us__item--style {
     order: 2;
-
   }
 
   .about-us__item--likes {
@@ -162,19 +160,19 @@
     padding-right: 225px;
   }
 
-    .about-us__item {
-      max-width: 300px;
-      text-align:left;
-      padding-right: 0;
-      box-sizing: border-box;
-    }
-
-    .about-us__item--likes::before {
-      margin-bottom: 15px;
-    }
-
-    .about-us__item--packaging::before {
-      margin-bottom: 15px;
-    }
-
+  .about-us__item {
+    max-width: 300px;
+    text-align:left;
+    padding-right: 0;
+    box-sizing: border-box;
   }
+
+  .about-us__item--likes::before {
+    margin-bottom: 15px;
+  }
+
+  .about-us__item--packaging::before {
+     margin-bottom: 15px;
+  }
+
+}

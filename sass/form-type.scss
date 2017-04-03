@@ -59,6 +59,9 @@
 
   }
 
+input + .form-type__item::after {
+  display: none;
+}
 
 input:checked + .form-type__item::after {
   position: absolute;
