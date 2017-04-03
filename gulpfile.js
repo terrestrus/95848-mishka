@@ -28,6 +28,7 @@ gulp.task("style", function() {
       })
     ]))
     .pipe(gulp.dest("build/css"))
+    .pipe(gulp.dest("./css"))
     .pipe(minify())
     .pipe(rename("style.min.css"))
     .pipe(gulp.dest("build/css"))
@@ -72,7 +73,7 @@ gulp.task("clean", function() {
 
 gulp.task("serve", ["style"], function() {
   server.init({
-    server: ".",
+    server: "build/",
     auto:false,
     notify: false,
     open: true,
@@ -82,6 +83,7 @@ gulp.task("serve", ["style"], function() {
 
   gulp.watch("sass/**/*.{scss,sass}", ["style"]);
   gulp.watch("*.html").on("change", server.reload);
+  gulp.watch("*.html", ["html:update"]);
 });
 
   gulp.task("build", function(fn) {

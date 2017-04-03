@@ -52,9 +52,9 @@
   border-radius: 50%;
 }
 
- .form-type__item::before:hover {
-    border-color:  $turquoise-color;
-  }
+.form-type__item::before:hover {
+  border-color:  $turquoise-color;
+}
 
 input + .form-type__item::after {
   display: none;
@@ -115,7 +115,6 @@ input:checked + .form-type__item::after {
     width: 20px;
     height: 20px;
   }
-
 }
 
 @media (min-width: 1150px) {

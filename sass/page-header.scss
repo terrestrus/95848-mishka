@@ -15,35 +15,31 @@
     margin:  20px auto 20px;
   }
 
-  /*tablet */
-  @media (min-width: 768px) {
-    .page-header {
-      flex-direction: row;
-      justify-content: flex-start;
-      padding: 0 50px;
-      flex-wrap: nowrap;
-      position: relative;
-    }
+@media (min-width: 768px) {
+  .page-header {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 50px;
+    flex-wrap: nowrap;
+    position: relative;
+}
 
-    .page-header__logo {
-      display: inline-block;
-      margin: 0;
-    }
+  .page-header__logo {
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-header {
+    position: relative;
+    width: 100%;
+    padding-left: 50px;
+    padding-right:  50px;
   }
 
-  /* desktop */
-
-  @media (min-width: 1150px) {
-    .page-header {
-      position: relative;
-      width: 100%;
-      padding-left: 50px;
-      padding-right:  50px;
-    }
-
-    .page-header__logo {
-      position: absolute;
-      left: 44%;
-    }
-
+  .page-header__logo {
+    position: absolute;
+    left: 44%;
   }
+}

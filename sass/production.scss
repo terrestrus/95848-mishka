@@ -58,23 +58,23 @@
     font-size: 15px;
     line-height: 30px;
   }
+}
+
+ @media (min-width: 1150px) {
+  .production {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 105px;
+    padding-right: 62px;
+    width: 100%;
+    max-width: 1050px;
+    max-height: 455px;
   }
 
-  @media (min-width: 1150px) {
-    .production {
-      display: block;
-      margin-top: 0;
-      margin-bottom: 105px;
-      padding-right: 62px;
-      width: 100%;
-      max-width: 1050px;
-      max-height: 455px;
-    }
-
-    .production::before {
-      top: 189px;
-      left: 28.5%;
-    }
+   .production::before {
+     top: 189px;
+     left: 28.5%;
+  }
 
   .production::after {
     content: "";
@@ -86,7 +86,6 @@
     float: left;
     max-width: 680px;
     height: 100%;
-
   }
 
   .production__description {

@@ -1,5 +1,6 @@
 
 .main-nav {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -51,7 +52,7 @@
   right: 8%;
   margin-top: -81px;
   width: 30px;
-  height:30px;
+  height: 30px;
   background: url("../img/icon-menu-open.svg") no-repeat 50% 50%;
 }
 

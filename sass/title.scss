@@ -58,7 +58,6 @@
   width: 197px;
   font-size: 17px;
   line-height: 24px;
-
 }
 
 @media (min-width: 768px) {
@@ -95,14 +94,14 @@
   }
 
   .contacts .title::after {
-      content: "";
-      display: block;
-      height: 83px;
-      width: 50px;
-      margin-left: auto;
-      margin-top: -65px;
-      margin-right: 0;
-      background: url("../img/icon-flag.svg") no-repeat;
+    content: "";
+    display: block;
+    height: 83px;
+    width: 50px;
+    margin-left: auto;
+    margin-top: -65px;
+    margin-right: 0;
+    background: url("../img/icon-flag.svg") no-repeat;
   }
 
   .catalog-product-card .title {
@@ -141,6 +140,7 @@
     font-size: 53px;
     line-height: 57px;
   }
+
   .contacts .title::after {
     display: none;
   }
@@ -186,5 +186,4 @@
     font-size: 53px;
     line-height: 57px;
   }
-
 }

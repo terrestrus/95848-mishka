@@ -7,20 +7,19 @@
 }
 
 .menu__item {
-display: flex;
-align-items: center;
-max-height: 103px;
-min-width: 320px;
-padding: 30px 27px 32px;
-font-family: $main-font-bold;
-font-size: 19px;
-line-height: 24px;
-text-decoration: none;
-vertical-align: middle;
-color: white;
-box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  max-height: 103px;
+  min-width: 320px;
+  padding: 30px 27px 32px;
+  font-family: $main-font-bold;
+  font-size: 19px;
+  line-height: 24px;
+  text-decoration: none;
+  vertical-align: middle;
+  color: white;
+  box-sizing: border-box;
 }
-
 
 .menu__item:first-child {
   background: $turquoise-color ;
@@ -52,20 +51,24 @@ box-sizing: border-box;
     box-sizing: border-box;
   }
 
-  .menu::after {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 15px;
-    top: 88%;
-    background:  url("../img/bg-zigzag-fill.svg");
-  }
-
   .menu__item {
     width: 100%;
     min-height: 118px;
     padding-left: 35px;
+  }
+
+  .menu__item:first-child {
+    background: $turquoise-color  url("../img/bg-zigzag-fill.svg") no-repeat;
+    background-position: bottom;
+    background-position-y: 105%;
+    background-size: 110%;
+  }
+
+  .menu__item:last-child {
+    background: #56c3b2  url("../img/bg-zigzag-fill.svg") no-repeat;
+    background-position: bottom;
+    background-position-y: 105%;
+    background-size: 110%;
   }
 
   .menu__item:last-child svg {
@@ -80,14 +83,22 @@ box-sizing: border-box;
     height: 125px;
     padding-top: 35px;
   }
-
 }
 
 @media (min-width: 1150px) {
   .menu {
     width: 91%;
-    //padding:  0 50px;
     max-height: 130px;
     margin-top: -112px;
+    border-bottom: none;
+  }
+
+   .menu__item:first-child {
+    background-position-y: 110%;
+    border-bottom: none;
+  }
+
+  .menu__item:last-child {
+    background-position-y: 110%;
   }
 }

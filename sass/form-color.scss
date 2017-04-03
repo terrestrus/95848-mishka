@@ -24,7 +24,6 @@
   position: relative;
   display: flex;
   align-items: center;
-
   height: 50px;
   font-family: $main-font-bold;
   font-size: 17px;
@@ -37,9 +36,9 @@
   margin-top: 10px;
 }
 
-  .form-color input {
-    display: none;
-    position: relative;
+.form-color input {
+  display: none;
+  position: relative;
 }
 
 .form-color__item::before {
@@ -53,16 +52,16 @@
   border: 2px solid black;
 }
 
-  input:checked + .form-color__item::after   {
-    position: absolute;
-    content: "";
-    width: 9px;
-    height: 21px;
-    top: 6px;
-    left: 15px;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    transform: rotate(45deg);
+input:checked + .form-color__item::after   {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 21px;
+  top: 6px;
+  left: 15px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  transform: rotate(45deg);
 }
 
 @media (min-width: 768px) {
@@ -82,7 +81,6 @@
     justify-content: flex-start;
     width: 90%;
     padding-left: 95px;
-    // padding-right: 15px;
     box-sizing: border-box;
   }
 
@@ -97,7 +95,7 @@
   }
 
   .form-color__item:nth-child(3) {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   .form-color__item:nth-child(5) {
@@ -113,18 +111,17 @@
     border: 2px solid black;
   }
 
-    input:checked + .form-color__item::after   {
-      position: absolute;
-      content: "";
-      width: 12px;
-      height: 27px;
-      top: -6px;
-      left: 20px;
-      border-bottom: 3px solid black;
-      border-right: 3px solid black;
-      transform: rotate(45deg);
+  input:checked + .form-color__item::after   {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 27px;
+    top: -6px;
+    left: 20px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    transform: rotate(45deg);
   }
-
 }
 
 @media (min-width: 1150px) {
@@ -135,7 +132,6 @@
     margin-right: 35px;
   }
 
-
   .form-color__item {
     width: 30%;
   }
@@ -145,9 +141,7 @@
   }
 
   .form-color {
-      padding: 70px 20px  27px 115px;
-      box-sizing: border-box;
+    padding: 70px 20px  27px 115px;
+    box-sizing: border-box;
   }
-
-
 }
