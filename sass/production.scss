@@ -60,7 +60,7 @@
   }
 }
 
- @media (min-width: 1150px) {
+@media (min-width: 1150px) {
   .production {
     display: block;
     margin-top: 0;
@@ -71,9 +71,9 @@
     max-height: 455px;
   }
 
-   .production::before {
-     top: 189px;
-     left: 28.5%;
+  .production::before {
+    top: 189px;
+    left: 28.5%;
   }
 
   .production::after {
