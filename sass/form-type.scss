@@ -52,11 +52,8 @@
   border-radius: 50%;
 }
 
-
-  .form-type__item::before:hover {
-
+ .form-type__item::before:hover {
     border-color:  $turquoise-color;
-
   }
 
 input + .form-type__item::after {
