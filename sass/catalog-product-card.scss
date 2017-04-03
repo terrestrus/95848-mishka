@@ -81,7 +81,7 @@
 
   .catalog-product-card__image {
     margin: 0;
-    width: 350px;
+    //width: 350px;
   }
 
   .catalog-product-card__info {
@@ -90,7 +90,7 @@
     align-items: flex-start;
     width: 50%;
     height: 100%;
-    padding: 0 0 0 30px ;
+    padding: 0 0 0 25px ;
   }
 
   .catalog-product-card__description {
@@ -125,7 +125,7 @@
   .catalog-product-card {
     flex-direction: column;
     width: 315px;
-    min-height: 700px;
+    min-height: 658px;
     margin-left: 0;
   }
 
@@ -142,7 +142,7 @@
   .catalog-product-card__image {
     width: 100%;
     min-height: 460px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 
   }
 
@@ -154,7 +154,7 @@
   }
 
   .catalog-product-card__price-block {
-    margin-bottom: 50px;
+    //margin-bottom: 50px;
     margin-left: 0;
   }
 
