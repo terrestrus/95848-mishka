@@ -1,9 +1,12 @@
-
 .main-nav {
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.main-nav__item a[disabled] {
+  color: #b2b2b2;
 }
 
 .main-nav__list {
